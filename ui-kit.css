@@ -1,0 +1,146 @@
+/* Figma UI kit 4012:3833. Geometry stays fixed between Default and Hover.
+   The variants have no prototype transition: 220ms ease-out is the web timing. */
+:root {
+  --ui-duration: 220ms;
+  --ui-ease: cubic-bezier(0, 0, .58, 1);
+  --ui-primary: linear-gradient(180deg, #ffffff66 0%, #ffffff0f 50%, #ffffff00 51%, #00000024 100%), url('assets/b162e.png'), linear-gradient(90deg, #823981, #6042a0 55%, #3762b0);
+  --ui-primary-hover: linear-gradient(180deg, #ffffff66 0%, #ffffff0f 50%, #ffffff00 51%, #1f1f1f24 100%), url('assets/b162e.png'), linear-gradient(90deg, #915190, #7359ab 55%, #4f75b9);
+  --ui-light: linear-gradient(180deg, #ffffffe6, #ffffff00 45%), linear-gradient(#ffffffcc, #ffffffcc), url('assets/bc77f.png'), linear-gradient(#fff, #e2e5ef);
+}
+
+/* Separate composited surfaces allow gradients and metallic texture to fade. */
+.cta > span, .cta > i, .primary, button.round, .jobs .round,
+.header nav a.active {
+  position: relative;
+  isolation: isolate;
+  background: var(--ui-primary);
+  background-size: cover;
+  background-blend-mode: normal, soft-light, normal;
+  color: #fff;
+  transition: color var(--ui-duration) var(--ui-ease),
+    border-color var(--ui-duration) var(--ui-ease),
+    box-shadow var(--ui-duration) var(--ui-ease);
+}
+.light-cta > span, .light-cta > i, button.round.light, .jobs .round.light {
+  background: var(--ui-light);
+  background-size: cover;
+  background-blend-mode: normal;
+  color: #823981;
+  border-color: #fff;
+}
+.cta > span::before, .cta > i::before, .primary::before,
+button.round::before, .jobs .round::before, .header nav a::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--ui-primary-hover);
+  background-size: cover;
+  background-blend-mode: normal, soft-light, normal;
+  opacity: 0;
+  transition: opacity var(--ui-duration) var(--ui-ease);
+}
+.light-cta > span::before, .light-cta > i::before,
+button.round.light::before, .jobs .round.light::before {
+  background-image: var(--ui-primary);
+}
+
+/* The light arrow fades to the corresponding white SVG from the kit. */
+.light-cta > i::after, button.round.light::after, .jobs .round.light::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: var(--ui-arrow, url('assets/8245d.svg')) center / 18px 18px no-repeat;
+  opacity: 0;
+  transition: opacity var(--ui-duration) var(--ui-ease);
+}
+button.round[data-benefit='-1'], button.round[data-case='-1'] {
+  --ui-arrow: url('assets/188a4.svg');
+}
+.jobs .round.light::after { background-size: 13px 13px; }
+.header nav a {
+  position: relative;
+  isolation: isolate;
+  border: 1px solid transparent;
+  transition: color var(--ui-duration) var(--ui-ease),
+    border-color var(--ui-duration) var(--ui-ease),
+    box-shadow var(--ui-duration) var(--ui-ease);
+}
+.header nav a.active { border-color: #ffffffb3; }
+.header nav a:focus-visible, .header nav a:active {
+  color: #fff;
+  border-color: #ffffffb3;
+  box-shadow: 0 6px 14px #32195a4d;
+}
+.header nav a:active::before { opacity: 1; }
+.light-cta > i > img, button.round.light > img, .jobs .round.light > img {
+  transition: opacity var(--ui-duration) var(--ui-ease);
+}
+
+/* Keyboard focus has the same visual state; hover is enabled only for a mouse. */
+.cta:focus-visible > span::before, .cta:focus-visible > i::before,
+.primary:focus-visible::before, button.round:focus-visible::before,
+.jobs > :is(button,a):focus-visible .round::before,
+.header nav a:focus-visible::before { opacity: 1; }
+.light-cta:focus-visible > span { color: #fff; }
+.light-cta:focus-visible > span, .light-cta:focus-visible > i,
+button.round.light:focus-visible {
+  border-color: #ffffffb3;
+  box-shadow: 0 8px 20px #32195a6b;
+}
+.light-cta:focus-visible > i::after, button.round.light:focus-visible::after,
+.jobs > :is(button,a):focus-visible .round.light::after { opacity: 1; }
+.light-cta:focus-visible > i > img, button.round.light:focus-visible > img,
+.jobs > :is(button,a):focus-visible .round.light > img { opacity: 0; }
+.jobs > :is(button,a):focus-visible .round {
+  border-color: #ffffffb3;
+  box-shadow: 0 8px 20px #32195a6b;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cta:hover > span::before, .cta:hover > i::before,
+  .primary:hover::before, button.round:hover::before,
+  .jobs > :is(button,a):hover .round::before, .header nav a:hover::before { opacity: 1; }
+  .header nav a:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #ffffffb3;
+    box-shadow: 0 6px 14px #32195a4d;
+  }
+  .light-cta:hover > span { color: #fff; }
+  .light-cta:hover > span, .light-cta:hover > i, button.round.light:hover,
+  .jobs > :is(button,a):hover .round {
+    border-color: #ffffffb3;
+    box-shadow: 0 8px 20px #32195a6b;
+  }
+  button.round.primary:hover { box-shadow: 0 8px 22px #33408073; }
+  .light-cta:hover > i::after, button.round.light:hover::after,
+  .jobs > :is(button,a):hover .round.light::after { opacity: 1; }
+  .light-cta:hover > i > img, button.round.light:hover > img,
+  .jobs > :is(button,a):hover .round.light > img { opacity: 0; }
+}
+
+/* Touch gets the same color feedback while pressed, with no sticky hover. */
+.cta:active > span::before, .cta:active > i::before,
+.primary:active::before, button.round:active::before,
+.jobs > :is(button,a):active .round::before { opacity: 1; }
+.light-cta:active > span { color: #fff; }
+.light-cta:active > i::after, button.round.light:active::after,
+.jobs > :is(button,a):active .round.light::after { opacity: 1; }
+.light-cta:active > i > img, button.round.light:active > img,
+.jobs > :is(button,a):active .round.light > img { opacity: 0; }
+button.round.primary:focus-visible { box-shadow: 0 8px 22px #33408073; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cta > span, .cta > i, .primary, button.round, .jobs .round,
+  .header nav a, .cta > span::before, .cta > i::before,
+  .primary::before, button.round::before, .jobs .round::before,
+  .header nav a::before, .light-cta > i::after,
+  button.round.light::after, .jobs .round.light::after,
+  .light-cta > i > img, button.round.light > img, .jobs .round.light > img {
+    transition: none;
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="54" viewBox="0 0 44 54" fill="none">
+  <defs><linearGradient id="metal" x1="3" y1="5" x2="42" y2="48" gradientUnits="userSpaceOnUse"><stop stop-color="#a66ab1"/><stop offset=".42" stop-color="#61266c"/><stop offset=".75" stop-color="#935397"/><stop offset="1" stop-color="#55235f"/></linearGradient></defs>
+  <path d="M3 8c7 0 13-2 19-6 6 4 12 6 19 6v16c0 13-8 21-19 28C11 45 3 37 3 24V8Z" fill="url(#metal)" stroke="#b081b6" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M22 3v10m0 28v10" stroke="#eee1f0" stroke-width="1.8"/>
+  <circle cx="22" cy="27" r="13" fill="#c09acc" stroke="#e1cee7" stroke-width="1.5"/>
+  <circle cx="22" cy="27" r="9.5" fill="#703079" stroke="#9b66aa"/>
+  <path d="m16 29 4-6 4 7 4-6" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

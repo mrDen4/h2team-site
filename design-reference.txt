@@ -1,0 +1,1421 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/312e9436-3317-42f2-bf6e-d6109af8e908";
+const imgVector27 = `${assetPathPrefix}/96363.svg`;
+const imgVector28 = `${assetPathPrefix}/43379.svg`;
+const img1LogoBlueNavyRu1 = `${assetPathPrefix}/811b4.svg`;
+const imgLayer1 = `${assetPathPrefix}/4778e.svg`;
+const imgGroup = `${assetPathPrefix}/f0b33.svg`;
+const imgGroup1 = `${assetPathPrefix}/88a46.svg`;
+const imgGroup2 = `${assetPathPrefix}/cf5c5.svg`;
+const imgPill = `${assetPathPrefix}/b162e.png`;
+const imgArrowRight = `${assetPathPrefix}/8245d.svg`;
+const imgStateDefault = `${assetPathPrefix}/bc77f.png`;
+const imgArrowRight1 = `${assetPathPrefix}/d053d.svg`;
+const imgArrowLeft = `${assetPathPrefix}/25b2a.svg`;
+const imgImagePlaceholder = `${assetPathPrefix}/8b2ef.png`;
+const imgImagePlaceholder1 = `${assetPathPrefix}/c1914.png`;
+const imgImagePlaceholder2 = `${assetPathPrefix}/5946c.png`;
+const img21 = `${assetPathPrefix}/d358b.png`;
+const imgImage26 = `${assetPathPrefix}/e4e91.png`;
+const imgNavGlassMetal = `${assetPathPrefix}/3f705.png`;
+const imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11 = `${assetPathPrefix}/bcd3e.png`;
+const imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff12 = `${assetPathPrefix}/eb2b4.png`;
+const imgCee362Ba3Ef0E4322C4E68E86F4E69A3Ddcec58EAf7545A9A27254B04Cd74D066546541 = `${assetPathPrefix}/9494a.png`;
+const imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff1 = `${assetPathPrefix}/6f752.png`;
+const imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff13 = `${assetPathPrefix}/a2e18.png`;
+const imgDc922F9E52Cc4Fe602733B51 = `${assetPathPrefix}/3ff65.png`;
+const img5Bb3483373A64297Aa7A6F144Fa8250BAie1 = `${assetPathPrefix}/5ff4c.png`;
+const imgF13D4Ca85Ad60C8E4D690D397C172Fb6Aad80Ce3Ff284240A12AD49825B8C5Ff1 = `${assetPathPrefix}/1d37d.png`;
+const img42 = `${assetPathPrefix}/3c2e1.png`;
+const img07HydrogenBusStation1 = `${assetPathPrefix}/7e12e.png`;
+const img57Aa757F717743659C4C0373F8Cc9Fc9BananalabPro2K1 = `${assetPathPrefix}/c5d07.png`;
+const imgGeminiGeneratedImageCelw1Wcelw1Wcelw1 = `${assetPathPrefix}/fed5b.png`;
+const img08MobileRefuelingStation1 = `${assetPathPrefix}/070a6.png`;
+const imgEllipse2137 = `${assetPathPrefix}/e605f.png`;
+const imgLogo = `${assetPathPrefix}/153ec.png`;
+const imgLogo1 = `${assetPathPrefix}/84fc4.png`;
+const imgLogo2 = `${assetPathPrefix}/73a5a.png`;
+const imgLogo3 = `${assetPathPrefix}/1462b.png`;
+const imgLogo4 = `${assetPathPrefix}/57a0d.png`;
+const imgLogo5 = `${assetPathPrefix}/b8eed.png`;
+const imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K3 = `${assetPathPrefix}/86d52.png`;
+const imgEllipse2138 = `${assetPathPrefix}/92218.png`;
+const img5429Ca58A84099067B9E6D31202283 = `${assetPathPrefix}/1744c.png`;
+const imgE5A0269C620A3F51Ada1Efe1B91F34304B0Fc1Df09Fb420ABbf2085Edc9C68Ac21 = `${assetPathPrefix}/31400.png`;
+const imgB7D5Cb79020Bff49F29C4935E6Dc61E354A6A779A1294364B58955763075E3De2 = `${assetPathPrefix}/402d0.png`;
+const imgNotchCircle02 = `${assetPathPrefix}/8a86c.png`;
+const imgCard03ImageGenerated = `${assetPathPrefix}/2ab26.png`;
+const imgA041D5944F221F9E5E3B73A3Ba32Ff0E71594Dec29Fb420F87F3831Da8Adfb341 = `${assetPathPrefix}/715d3.png`;
+const imgVector30 = `${assetPathPrefix}/3d48d.svg`;
+const imgGroup3 = `${assetPathPrefix}/b6e82.svg`;
+const imgGroup4 = `${assetPathPrefix}/77f20.svg`;
+const imgGroup5 = `${assetPathPrefix}/b3d41.svg`;
+const imgGroup6 = `${assetPathPrefix}/8c3d9.svg`;
+const imgGroup7 = `${assetPathPrefix}/dbcd1.svg`;
+const imgVector = `${assetPathPrefix}/852d7.svg`;
+const imgVector1 = `${assetPathPrefix}/b893c.svg`;
+const imgVector25 = `${assetPathPrefix}/73c10.svg`;
+const imgVector29 = `${assetPathPrefix}/82399.svg`;
+const imgEllipse2142 = `${assetPathPrefix}/34c90.svg`;
+const imgGroup234 = `${assetPathPrefix}/2f64e.svg`;
+const imgGroup246 = `${assetPathPrefix}/cf2f1.svg`;
+const imgSubtract = `${assetPathPrefix}/5ac7d.svg`;
+const imgGroup8 = `${assetPathPrefix}/10e3c.svg`;
+const imgGroup9 = `${assetPathPrefix}/b6324.svg`;
+const imgGroup10 = `${assetPathPrefix}/9ca88.svg`;
+const imgFrame = `${assetPathPrefix}/e67a1.svg`;
+const imgCalloutRing = `${assetPathPrefix}/56ed7.svg`;
+const imgVector2 = `${assetPathPrefix}/d01ee.svg`;
+const img15 = `${assetPathPrefix}/c2e0d.svg`;
+const img16 = `${assetPathPrefix}/0720d.svg`;
+const imgGroup35675 = `${assetPathPrefix}/85a1b.svg`;
+const imgGroup35676 = `${assetPathPrefix}/71888.svg`;
+const imgVector56 = `${assetPathPrefix}/fc637.svg`;
+const img04 = `${assetPathPrefix}/cff5b.svg`;
+const img5 = `${assetPathPrefix}/e5ca4.svg`;
+const img6 = `${assetPathPrefix}/85b08.svg`;
+const img7 = `${assetPathPrefix}/0e1cc.svg`;
+const imgEllipse2181 = `${assetPathPrefix}/ac118.svg`;
+const imgEllipse2182 = `${assetPathPrefix}/b9ae8.svg`;
+const imgEllipse2183 = `${assetPathPrefix}/96f23.svg`;
+const imgVector57 = `${assetPathPrefix}/38274.svg`;
+const img8 = `${assetPathPrefix}/18f70.svg`;
+const img9 = `${assetPathPrefix}/62e76.svg`;
+const img10 = `${assetPathPrefix}/12403.svg`;
+const imgEllipse2184 = `${assetPathPrefix}/86285.svg`;
+const imgEllipse2185 = `${assetPathPrefix}/cd759.svg`;
+const imgCardBgDark = `${assetPathPrefix}/96817.svg`;
+const imgCardBgDark1 = `${assetPathPrefix}/3c34b.svg`;
+const img41 = `${assetPathPrefix}/6aecd.svg`;
+const imgRectangle362 = `${assetPathPrefix}/1ca98.svg`;
+const imgArrowProjectCard = `${assetPathPrefix}/ac126.svg`;
+const imgArrowRight2 = `${assetPathPrefix}/95590.svg`;
+const imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2 = `${assetPathPrefix}/78f8d.svg`;
+const imgNotchCircle04 = `${assetPathPrefix}/bfd0b.svg`;
+
+function Component({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[423px] relative w-[1921px]"} data-node-id="4012:3914" data-name="футер">
+      <div className="absolute contents left-0 top-[20px]" data-node-id="4012:3915">
+        <div className="absolute contents left-0 top-[20px]" data-node-id="4012:3916">
+          <div className="absolute bg-[#f7f7f7] h-[403px] left-0 rounded-tl-[30px] rounded-tr-[30px] top-[20px] w-[1920px]" data-node-id="4012:3917" />
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[47px] leading-[normal] left-[1341px] not-italic text-[14px] text-black top-[103px] w-[190px]" data-node-id="4012:3918">
+            Info@h2team.tech
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[47px] leading-[normal] left-[1139px] not-italic text-[14px] text-black top-[103px] w-[190px]" data-node-id="4012:3919">
+            +7 (499) 911-67-19
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[23px] leading-[normal] left-[1341px] not-italic text-[#823981] text-[14px] top-[80px] w-[190px]" data-node-id="4012:3920">
+            Почта
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[23px] leading-[normal] left-[1139px] not-italic text-[#823981] text-[14px] top-[153px] w-[190px]" data-node-id="4012:3921">
+            Адрес
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[23px] leading-[normal] left-[1139px] not-italic text-[#823981] text-[14px] top-[80px] w-[190px]" data-node-id="4012:3922">
+            Телефон
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[65px] leading-[normal] left-[1139px] not-italic text-[14px] text-black top-[176px] w-[294px]" data-node-id="4012:3923">
+            124482, г. Москва, г. Зеленоград, Савёлкинский проезд, д. 4, оф. 1701-1707
+          </p>
+          <button className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] left-[804px] not-italic text-[14px] text-black text-left top-[80px] w-[66px]" data-node-id="4012:3924">
+            <p className="leading-[normal]">Главная</p>
+          </button>
+          <button className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] left-[804px] not-italic text-[14px] text-black text-left top-[185px] w-[78px]" data-node-id="4012:3925">
+            <p className="leading-[normal]">Партнёры</p>
+          </button>
+          <button className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] left-[804px] not-italic text-[14px] text-black text-left top-[150px] w-[102px]" data-node-id="4012:3926">
+            <p className="leading-[normal]">Проекты</p>
+          </button>
+          <a className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] left-[966px] not-italic text-[14px] text-black top-[115px] w-[102px]" data-node-id="4012:3927">
+            <p className="leading-[normal]">Карьера</p>
+          </a>
+          <a className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] left-[804px] not-italic text-[14px] text-black top-[115px] w-[95px]" data-node-id="4012:3928">
+            <p className="leading-[normal]">О компании</p>
+          </a>
+          <a className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] left-[966px] not-italic text-[14px] text-black top-[80px] w-[95px]" data-node-id="4012:3929">
+            <p className="leading-[normal]">Пресса</p>
+          </a>
+          <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[14px] leading-[0] left-[397px] not-italic text-[11.79px] text-black top-[302.5px] w-[177px]" data-node-id="4012:3930">
+            <p className="leading-[normal] mb-0">@ 2025. Все права защищены</p>
+            <p className="leading-[normal]">​</p>
+          </div>
+          <p className="-translate-x-full [word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[14px] leading-[normal] left-[1511px] not-italic text-[11.79px] text-black text-right top-[302.5px] w-[240px]" data-node-id="4012:3931">
+            Политика конфиденциальности данных
+          </p>
+          <p className="-translate-x-full [word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[14px] leading-[normal] left-[1239px] not-italic text-[11.79px] text-black text-right top-[302.5px] w-[205px]" data-node-id="4012:3932">
+            Пользовательское соглашение
+          </p>
+          <div className="absolute h-0 left-[397px] top-[286px] w-[1112.5px]" data-node-id="4012:3933">
+            <div className="absolute inset-[-0.5px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector27} />
+            </div>
+          </div>
+          <button className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] left-[966px] not-italic text-[14px] text-black text-left top-[150px] w-[102px]" data-node-id="4012:3934">
+            <p className="leading-[normal]">Контакты</p>
+          </button>
+        </div>
+      </div>
+      <div className="absolute h-0 left-0 top-0 w-[1921px]" data-node-id="4012:3935">
+        <div className="absolute inset-[-0.5px_0]">
+          <img alt="" className="block max-w-none size-full" src={imgVector28} />
+        </div>
+      </div>
+      <div className="absolute h-[19px] left-[402px] top-[246px] w-[91px]" data-node-id="4012:3936" data-name="1-Logo-Blue-Navy-RU 1">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={img1LogoBlueNavyRu1} />
+      </div>
+      <div className="absolute h-[28px] left-[526px] overflow-clip top-[241px] w-[96px]" data-node-id="4012:3951" data-name="000Asset 10 4">
+        <div className="absolute contents inset-0" data-node-id="4012:3952" data-name="Layer 1">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLayer1} />
+        </div>
+      </div>
+      <div className="absolute h-[60px] left-[401px] overflow-clip top-[80px] w-[289px]" data-node-id="4012:3960" data-name="1Asset 10 2">
+        <div className="absolute contents inset-[0_0_-0.01%_0]" data-node-id="4012:3961" data-name="Layer 1">
+          <div className="absolute contents inset-[0_0_-0.01%_0]" data-node-id="4012:3962" data-name="Group">
+            <div className="absolute inset-[0_79.35%_-0.01%_0]" data-node-id="4012:3963" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+            <div className="absolute contents inset-[15.36%_0_15.36%_26.71%]" data-node-id="4012:3966" data-name="Group">
+              <div className="absolute inset-[15.36%_0_51.29%_26.71%]" data-node-id="4012:3967" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+              <div className="absolute inset-[63.87%_0.91%_15.36%_26.75%]" data-node-id="4012:3978" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+type ButtonPrimaryProps = {
+  className?: string;
+  state?: "Default";
+};
+
+function ButtonPrimary({ className, state = "Default" }: ButtonPrimaryProps) {
+  return (
+    <div className={className || "content-stretch flex gap-[3px] items-center relative"} data-node-id="4012:3835">
+      <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0" data-node-id="4012:3836" data-name="Pill">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="4012:3837">
+          Связаться с нами
+        </p>
+      </div>
+      <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0 size-[49px]" data-node-id="4012:3838" data-name="Arrow">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+        </div>
+        <div className="relative shrink-0 size-[18px]" data-node-id="4012:3839" data-name="arrow-right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+type ArrowNextLightProps = {
+  className?: string;
+  state?: "Default";
+};
+
+function ArrowNextLight({ className, state = "Default" }: ArrowNextLightProps) {
+  return (
+    <div className={className || "border border-solid border-white content-stretch drop-shadow-[0px_5px_7px_rgba(20,25,60,0.16)] flex items-center justify-center relative rounded-[100px] size-[52px]"} data-node-id="4012:3868">
+      <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+        <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+        <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgStateDefault} />
+      </div>
+      <div className="relative shrink-0 size-[18px]" data-node-id="4012:3869" data-name="arrow-right">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight1} />
+      </div>
+    </div>
+  );
+}
+
+type ArrowPrevLightProps = {
+  className?: string;
+  state?: "Default";
+};
+
+function ArrowPrevLight({ className, state = "Default" }: ArrowPrevLightProps) {
+  return (
+    <div className={className || "border border-solid border-white content-stretch drop-shadow-[0px_5px_7px_rgba(20,25,60,0.16)] flex items-center justify-center relative rounded-[100px] size-[52px]"} data-node-id="4012:3861">
+      <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+        <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+        <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgStateDefault} />
+      </div>
+      <div className="relative shrink-0 size-[18px]" data-node-id="4012:3862" data-name="arrow-left">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeft} />
+      </div>
+    </div>
+  );
+}
+
+type ButtonPrimary1Props = {
+  className?: string;
+  state?: "Default";
+};
+
+function ButtonPrimary1({ className, state = "Default" }: ButtonPrimary1Props) {
+  return (
+    <div className={className || "content-stretch flex gap-[3px] items-center relative"} data-node-id="4012:3902">
+      <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0" data-node-id="4012:3903" data-name="Pill">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="4012:3904">
+          Открыть кейс
+        </p>
+      </div>
+      <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0 size-[49px]" data-node-id="4012:3905" data-name="Arrow">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+        </div>
+        <div className="relative shrink-0 size-[18px]" data-node-id="4012:3906" data-name="arrow-right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+type ButtonLightProps = {
+  className?: string;
+  state?: "Default";
+};
+
+function ButtonLight({ className, state = "Default" }: ButtonLightProps) {
+  return (
+    <div className={className || "content-stretch flex gap-[3px] items-center relative"} data-node-id="4012:3848">
+      <div className="border border-solid border-white content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_5px_14px_0px_rgba(20,25,60,0.16)] shrink-0" data-node-id="4012:3849" data-name="Pill">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgStateDefault} />
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#823981] text-[16px] whitespace-nowrap" data-node-id="4012:3850">
+          Связаться с нами
+        </p>
+      </div>
+      <div className="border border-solid border-white content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_5px_14px_0px_rgba(20,25,60,0.16)] shrink-0 size-[49px]" data-node-id="4012:3851" data-name="Arrow">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgStateDefault} />
+        </div>
+        <div className="relative shrink-0 size-[18px]" data-node-id="4012:3852" data-name="arrow-right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight1} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function V2() {
+  return (
+    <div className="bg-[#f7f7f7] relative size-full" data-node-id="4012:1333" data-name="ГЛАВНАЯ СТРАНИЦА v2">
+      <div className="absolute gap-x-[24px] gap-y-[40px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[repeat(1,minmax(0,1fr))] h-[330px] left-[360px] top-[6538px] w-[1200px]" data-node-id="4012:1334" data-name="Press card">
+        <div className="bg-white border border-[#e2e5ee] border-solid justify-self-stretch overflow-clip relative rounded-[24px] self-stretch shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0" data-node-id="4012:1335" data-name="Press card 1">
+          <div className="absolute h-[196px] left-[-1px] top-[-1px] w-[384px]" data-node-id="4012:1336" data-name="Image placeholder">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImagePlaceholder} />
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#823981] text-[13px] top-[215px] whitespace-nowrap" data-node-id="4012:1337">
+            15.10.2026
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[139px] not-italic text-[#787c8c] text-[13px] top-[215px] whitespace-nowrap" data-node-id="4012:1338">
+            Новости энергетики
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#111] text-[18px] top-[243px] w-[336px]" data-node-id="4012:1339">
+            Водородная заправка для автобусов
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#823981] text-[14px] top-[295px] whitespace-nowrap" data-node-id="4012:1340">
+            Читать →
+          </p>
+        </div>
+        <div className="bg-white border border-[#e2e5ee] border-solid justify-self-stretch overflow-clip relative rounded-[24px] self-stretch shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0" data-node-id="4012:1341" data-name="Press card 2">
+          <div className="absolute h-[196px] left-[-1px] top-[-1px] w-[384px]" data-node-id="4012:1342" data-name="Image placeholder">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImagePlaceholder1} />
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#823981] text-[13px] top-[215px] whitespace-nowrap" data-node-id="4012:1343">
+            02.10.2026
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[139px] not-italic text-[#787c8c] text-[13px] top-[215px] whitespace-nowrap" data-node-id="4012:1344">
+            Горная промышленность
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#111] text-[18px] top-[243px] w-[336px]" data-node-id="4012:1345">
+            Водород для карьерных самосвалов
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#823981] text-[14px] top-[295px] whitespace-nowrap" data-node-id="4012:1346">
+            Читать →
+          </p>
+        </div>
+        <div className="bg-white border border-[#e2e5ee] border-solid justify-self-stretch overflow-clip relative rounded-[24px] self-stretch shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0" data-node-id="4012:1347" data-name="Press card 3">
+          <div className="absolute h-[196px] left-[-1px] top-[-1px] w-[384px]" data-node-id="4012:1348" data-name="Image placeholder">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImagePlaceholder2} />
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#823981] text-[13px] top-[215px] whitespace-nowrap" data-node-id="4012:1349">
+            24.09.2026
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[139px] not-italic text-[#787c8c] text-[13px] top-[215px] whitespace-nowrap" data-node-id="4012:1350">
+            Деловой вестник
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#111] text-[18px] top-[243px] w-[336px]" data-node-id="4012:1351">
+            Новый электролизёр прошёл тесты
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[23px] not-italic text-[#823981] text-[14px] top-[295px] whitespace-nowrap" data-node-id="4012:1352">
+            Читать →
+          </p>
+        </div>
+      </div>
+      <div className="absolute h-[1688px] left-[-368px] top-[-57px] w-[2752px]" data-node-id="4012:1353" data-name="логотип_фон (2 1" />
+      <div className="absolute h-[1698px] left-[-546px] top-[-92px] w-[3044px]" data-node-id="4029:1351" data-name="логотип_фон (2) 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[99.58%] left-[4.71%] max-w-none top-[-1.08%] w-[90.56%]" src={img21} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-gradient-to-b from-[rgba(14,18,38,0.2)] h-[1545px] left-1/2 to-[rgba(14,18,36,0.17)] top-0 via-1/2 via-[rgba(16,20,40,0.14)] w-[1920px]" data-node-id="4012:1354" data-name="Hero tone overlay (gunmetal)" />
+      <div className="absolute flex h-0 items-center justify-center left-[calc(16.67%+309px)] top-[856px] w-[305px]" data-node-id="4012:1355">
+        <div className="flex-none rotate-180">
+          <div className="h-0 relative w-[305px]">
+            <div className="absolute inset-[-0.5px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector30} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#f7f7f7] h-[942px] left-[-20px] top-[1539px] w-[2097px]" data-node-id="4012:1357" />
+      <div className="absolute contents inset-[20.5%_21.98%_69.48%_35.78%]" data-node-id="4012:1358">
+        <div className="absolute contents inset-[20.5%_21.98%_69.48%_35.78%]" data-node-id="4012:1359">
+          <div className="absolute contents inset-[20.5%_21.98%_69.48%_35.78%]" data-node-id="4012:1360" data-name="Layer 1">
+            <div className="absolute inset-[20.5%_21.98%_69.48%_35.78%]" data-node-id="4012:1361" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+            </div>
+            <div className="absolute inset-[22.14%_26.25%_76.77%_68.44%]" data-node-id="4012:1381" data-name="Group">
+              <div className="absolute inset-[-0.36%_-0.37%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup4} />
+              </div>
+            </div>
+            <div className="absolute inset-[25.27%_58.55%_73.8%_36.96%]" data-node-id="4012:1384" data-name="Group">
+              <div className="absolute inset-[-0.42%_-0.43%_-0.42%_-0.44%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup5} />
+              </div>
+            </div>
+            <div className="absolute inset-[28.41%_52.86%_70.67%_42.66%]" data-node-id="4012:1387" data-name="Group">
+              <div className="absolute inset-[-0.42%_-0.43%_-0.42%_-0.44%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup6} />
+              </div>
+            </div>
+            <div className="absolute inset-[28.32%_26.8%_70.76%_68.72%]" data-node-id="4012:1390" data-name="Group">
+              <div className="absolute inset-[-0.42%_-0.43%_-0.42%_-0.44%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup7} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute inset-[23.2%_31.04%_71.58%_46.41%]" data-node-id="4012:1393" data-name="Vector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+          </div>
+        </div>
+        <div className="absolute inset-[26.58%_36.3%_72.89%_61.46%]" data-node-id="4012:1394" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+        </div>
+      </div>
+      <div className="absolute flex h-0 items-center justify-center left-[calc(41.67%+133.5px)] top-[856px] w-[123.5px]" data-node-id="4012:1395">
+        <div className="flex-none rotate-180">
+          <div className="h-0 relative w-[123.5px]">
+            <div className="absolute inset-[-0.5px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector25} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[408.5px] items-center justify-center left-[calc(16.67%+309px)] top-[448px] w-0" data-node-id="4012:1396">
+        <div className="-scale-y-100 flex-none">
+          <div className="h-[408.5px] relative w-0">
+            <div className="absolute inset-[0_-0.5px]">
+              <img alt="" className="block max-w-none size-full" src={imgVector29} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[361px] not-italic text-[0px] text-white top-[1342px] w-[855px]" data-node-id="4012:1397">
+        <span className="font-['Inter:Semi_Bold'] font-semibold leading-[1.087] text-[32px]">{`Инжиниринг перспективных технологий `}</span>
+        <span className="font-['Inter:Semi_Bold'] font-semibold leading-[1.087] text-[32px]">водородной энергетики и транспорта</span>
+      </p>
+      <div className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[0] left-[calc(45.83%-520px)] not-italic text-[64px] text-white top-[205px] uppercase w-[1017px]" data-node-id="4012:1398">
+        <p className="leading-[1.087] mb-0">Инжиниринг</p>
+        <p className="leading-[1.087] mb-0">автономных</p>
+        <p className="leading-[1.087]">систем энергии</p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[84px] leading-[1.087] left-[calc(75%-346px)] not-italic text-[24px] text-white top-[815px] w-[347px]" data-node-id="4012:1399">
+        Инжиниринг перспективных технологий водородной энергетики и транспорта
+      </p>
+      <div className="absolute left-[calc(16.67%+303px)] size-[12px] top-[448px]" data-node-id="4012:1400">
+        <div className="absolute inset-[-91.67%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse2142} />
+        </div>
+      </div>
+      <div className="absolute left-[calc(50%+91px)] size-[12px] top-[850px]" data-node-id="4012:1401">
+        <div className="absolute inset-[-91.67%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse2142} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.087] left-[361px] not-italic text-[16px] text-white top-[1433px] w-[671px]" data-node-id="4012:1402">
+        Основная компетенция компании – автономная энергетика на базе возобновляемых источников энергии, в первую очередь – на базе водорода.
+      </p>
+      <div className="-translate-x-1/2 absolute contents left-[calc(20.83%+200px)] top-[1766.82px]" data-node-id="4012:1403">
+        <div className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[calc(20.83%-39px)] not-italic text-[0px] text-black top-[1766.82px] whitespace-nowrap" data-node-id="4012:1404">
+          <p className="mb-0 text-[32px]">
+            <span className="leading-[1.043]">{`КЛЮЧЕВЫЕ `}</span>
+            <span className="leading-[1.043] text-[#823981]">ПРЕИМУЩЕСТВА</span>
+          </p>
+          <p className="leading-[1.043] text-[#823981] text-[32px]">ВНЕДРЕНИЯ</p>
+        </div>
+      </div>
+      <div className="absolute h-[512px] left-[calc(33.33%+180px)] rounded-[30px] top-[7526px] w-[745px]" data-node-id="4012:1405" data-name="image 26">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[30px]">
+          <img alt="" className="absolute h-[104.49%] left-[-61.1%] max-w-none top-0 w-[161.12%]" src={imgImage26} />
+        </div>
+      </div>
+      <div className="absolute contents left-[360px] top-[7614px]" data-node-id="4012:1406">
+        <div className="absolute contents left-[360px] top-[7614px]" data-node-id="4012:1407">
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[47px] leading-[normal] left-[399.99px] not-italic text-[16px] text-black top-[7656px] w-[190px]" data-node-id="4012:1408">
+            Info@h2team.tech
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[47px] leading-[normal] left-[399.99px] not-italic text-[16px] text-black top-[7614px] w-[190px]" data-node-id="4012:1409">
+            +7 (499) 911-67-19
+          </p>
+          <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[57px] leading-[0] left-[399.99px] not-italic text-[16px] text-black top-[7700px] w-[318px] whitespace-pre-wrap" data-node-id="4012:1410">
+            <p className="leading-[normal] mb-0">{`124482, г. Москва, г. Зеленоград, Савёлкинский проезд, д. 4, `}</p>
+            <p className="leading-[normal]">оф. 1701-1707</p>
+          </div>
+          <div className="absolute flex h-[20.457px] items-center justify-center left-[360px] top-[7614.32px] w-[20.601px]" data-node-id="4012:1411">
+            <div className="flex-none rotate-[46.82deg] skew-x-[-3.25deg]">
+              <div className="h-[8.535px] relative w-[20.542px]">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup234} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute h-[17.59px] left-[365.49px] top-[7706.31px] w-[13.509px]" data-node-id="4012:1415">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup246} />
+          </div>
+          <div className="absolute h-[13px] left-[362.99px] top-[7659.31px] w-[17px]" data-node-id="4012:1418" data-name="Subtract">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSubtract} />
+          </div>
+        </div>
+      </div>
+      <button className="absolute contents cursor-pointer inset-[0.41%_70.52%_99.13%_18.8%]" data-node-id="4012:1419">
+        <div className="absolute inset-[0.41%_70.52%_99.13%_18.8%] overflow-clip" data-node-id="4012:1420" data-name="logo">
+          <div className="absolute contents inset-[0_0_-0.01%_0]" data-node-id="4012:1421" data-name="Layer 1">
+            <div className="absolute contents inset-[0_0_-0.01%_0]" data-node-id="4012:1422" data-name="Group">
+              <div className="absolute inset-[0_79.35%_-0.01%_0]" data-node-id="4012:1423" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup8} />
+              </div>
+              <div className="absolute contents inset-[15.36%_0_15.36%_26.71%]" data-node-id="4012:1426" data-name="Group">
+                <div className="absolute inset-[15.36%_0_51.29%_26.71%]" data-node-id="4012:1427" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup9} />
+                </div>
+                <div className="absolute inset-[63.87%_0.91%_15.36%_26.75%]" data-node-id="4012:1438" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup10} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <div className="absolute border border-[rgba(255,255,255,0.75)] border-solid content-stretch flex gap-[2px] items-center left-[calc(25%+170px)] overflow-clip p-[5px] rounded-[100px] shadow-[0px_10px_28px_0px_rgba(8,10,30,0.28)] top-[32px]" data-node-id="4012:1459" data-name="Nav / Glass metal">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute bg-[rgba(255,255,255,0.13)] inset-0 rounded-[100px]" />
+          <img alt="" className="absolute backdrop-blur-[12px] max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgNavGlassMetal} />
+        </div>
+        <button className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0" data-node-id="4012:1460" data-name="Nav item / Главная">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[13px] text-left text-white whitespace-nowrap" data-node-id="4012:1461">
+            Главная
+          </p>
+        </button>
+        <a className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:1462" data-name="Nav item / О компании">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:1463">
+            О компании
+          </p>
+        </a>
+        <button className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:1464" data-name="Nav item / Проекты">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:1465">
+            Проекты
+          </p>
+        </button>
+        <button className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:1466" data-name="Nav item / Партнёры">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:1467">
+            Партнёры
+          </p>
+        </button>
+        <a className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:1468" data-name="Nav item / Пресса">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:1469">
+            Пресса
+          </p>
+        </a>
+        <a className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:1470" data-name="Nav item / Карьера">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:1471">
+            Карьера
+          </p>
+        </a>
+        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_1px_0px_0px_rgba(255,255,255,0.35)]" />
+      </div>
+      <div className="absolute border border-solid border-white content-stretch flex gap-[8px] items-center left-[calc(91.67%-275px)] overflow-clip px-[18px] py-[13px] rounded-[100px] shadow-[0px_5px_14px_0px_rgba(20,25,60,0.16)] top-[36px]" data-node-id="4012:1472" data-name="Nav / Язык RU">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgNavGlassMetal} />
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#222230] text-[13px] whitespace-nowrap" data-node-id="4012:1473">
+          RU
+        </p>
+        <div className="relative shrink-0 size-[12px]" data-node-id="4012:1474" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+        </div>
+      </div>
+      <button className="absolute border border-[rgba(255,255,255,0.7)] border-solid content-stretch cursor-pointer flex items-center left-[calc(83.33%-231px)] overflow-clip px-[22px] py-[13px] rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] top-[36px]" data-node-id="4012:1476" data-name="Nav / Контакты">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[13px] text-left text-white whitespace-nowrap" data-node-id="4012:1477">
+          Контакты
+        </p>
+      </button>
+      <ButtonLight className="absolute content-stretch cursor-pointer flex gap-[3px] items-center left-[calc(75%-126px)] top-[1385px]" />
+      <div className="absolute left-[calc(16.67%+295px)] size-[28px] top-[440px]" data-node-id="4012:1479" data-name="Callout ring">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCalloutRing} />
+      </div>
+      <div className="absolute left-[calc(50%+83px)] size-[28px] top-[842px]" data-node-id="4012:1480" data-name="Callout ring">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCalloutRing} />
+      </div>
+      <ArrowPrevLight className="absolute border border-solid border-white content-stretch cursor-pointer drop-shadow-[0px_5px_7px_rgba(20,25,60,0.16)] flex items-center justify-center left-[calc(83.33%-155px)] rounded-[100px] size-[52px] top-[1772px]" />
+      <ArrowNextLight className="absolute border border-solid border-white content-stretch cursor-pointer drop-shadow-[0px_5px_7px_rgba(20,25,60,0.16)] flex items-center justify-center left-[calc(91.67%-251px)] rounded-[100px] size-[52px] top-[1772px]" />
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[360px] not-italic text-[32px] text-black top-[2626px] whitespace-nowrap" data-node-id="4012:1483">
+        <span className="leading-[normal]">{`КТО `}</span>
+        <span className="leading-[normal] text-[#823981]">МЫ</span>
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[100px] leading-[1.35] left-[360px] not-italic text-[22px] text-black top-[2700px] w-[640px]" data-node-id="4012:1484">
+        Инжиниринговый центр «Автономная энергетика» - одна из ведущих российских компаний в сфере прикладных решений для водородной энергетики. Компания образована в 2019 г. как спин-офф ведущего технического вуза страны – МФТИ.
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[91px] leading-[1.087] left-[calc(58.33%-9px)] not-italic text-[16px] text-black top-[2706px] w-[449px]" data-node-id="4012:1485">{`Уникальные инженерные решения для оптимизации энергетических затрат на жизненном цикле для тяжёлого коммерческого транспорта, больших парков коммерческих флотов (автобусы, тягачи, коммерческая техника, суда, погрузчики) `}</p>
+      <div className="absolute bg-[#d5d8e0] h-px left-[360px] top-[2915px] w-[1200px]" data-node-id="4012:1486" data-name="Divider / top" />
+      <div className="absolute bg-[#d5d8e0] h-[205px] left-[calc(33.33%+120px)] top-[2915px] w-px" data-node-id="4012:1487" data-name="Divider / v1" />
+      <div className="absolute bg-[#d5d8e0] h-[205px] left-[calc(66.67%-120px)] top-[2915px] w-px" data-node-id="4012:1488" data-name="Divider / v2" />
+      <div className="-translate-x-1/2 absolute contents left-[calc(12.5%+224.85px)] top-[2945px]" data-node-id="4012:1489">
+        <div className="-translate-x-1/2 absolute left-[calc(12.5%+286.63px)] size-[38.113px] top-[2965.79px]" data-node-id="4012:1490" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[99px] leading-[1.043] left-[calc(4.17%+330.56px)] not-italic text-[#823981] text-[77.268px] top-[2945px] w-[62.746px]" data-node-id="4012:1491">
+          9
+        </p>
+        <div className="-translate-x-1/2 absolute h-[70.679px] left-[calc(4.17%+314.06px)] top-[2951.12px] w-[20.111px]" data-node-id="4012:1492" data-name="[15]+">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img15} />
+        </div>
+        <div className="-translate-x-1/2 absolute flex h-[70.679px] items-center justify-center left-[calc(12.5%+239.73px)] top-[2951.12px] w-[20.111px]" data-node-id="4012:1494">
+          <div className="-scale-y-100 flex-none rotate-180">
+            <div className="h-[70.679px] relative w-[20.111px]" data-name="[15]+">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img16} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[70.679px] left-[calc(37.5%+117.56px)] top-[2951px] w-[107.111px]" data-node-id="4012:1496">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup35675} />
+      </div>
+      <div className="-translate-x-1/2 absolute h-[70.679px] left-[calc(79.17%-235.1px)] top-[2951px] w-[201.803px]" data-node-id="4012:1502">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup35676} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.043] left-[calc(12.5%+144px)] not-italic text-[#4a4a4a] text-[18px] top-[3036px] w-[175px]" data-node-id="4012:1510">
+        проектов реализовано
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.043] left-[calc(37.5%+64px)] not-italic text-[#4a4a4a] text-[18px] top-[3036px] w-[105px]" data-node-id="4012:1511">
+        лет опыта на рынке
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.043] left-[calc(70.83%-176px)] not-italic text-[#4a4a4a] text-[18px] top-[3036px] w-[139px]" data-node-id="4012:1512">
+        специалистов в штате
+      </p>
+      <a className="absolute content-stretch cursor-pointer flex gap-[3px] items-center left-[360px] top-[3172px]" data-node-id="4012:1513" data-name="Button / Подробнее о компании">
+        <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0" data-node-id="I4012:1513;4012:3836" data-name="Pill">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[16px] text-left text-white whitespace-nowrap" data-node-id="I4012:1513;4012:3837">
+            Подробнее о компании
+          </p>
+        </div>
+        <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0 size-[49px]" data-node-id="I4012:1513;4012:3838" data-name="Arrow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I4012:1513;4012:3839" data-name="arrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+          </div>
+        </div>
+      </a>
+      <div className="absolute h-[1129px] left-[5px] overflow-x-auto overflow-y-clip top-[3323px] w-[1915px]" data-node-id="4012:1514" data-name="Slider / Кейсы (прокрутка)">
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%+2019px)] top-0" data-node-id="4012:5586" data-name="Case / Первый российский водородный вездеход (слайд 02)">
+          <div className="absolute h-[1292px] left-[1789.96px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[157.892px_28.989px] mask-size-[2057.746px_1129px] top-[-28.99px] w-[2564px]" data-node-id="4012:5590" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="eb6c14142ad8246505afd64fed8c5e5a_6e153c7f-f946-42f6-a62c-4b21c200a6ff (1) 1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[88.53%] left-[5.58%] max-w-none top-[1.73%] w-[79.92%]" src={imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff12} />
+            </div>
+          </div>
+          <div className="absolute h-[1200px] left-[1790px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[157.847px_32px] mask-size-[2057.746px_1129px] top-[-32px] w-[2234px]" data-node-id="4012:5591" style={{ backgroundImage: "linear-gradient(160.49192923950886deg, rgba(255, 255, 255, 0.9) 7.7703%, rgba(255, 255, 255, 0.9) 7.7703%, rgba(255, 255, 255, 0.479) 18.561%, rgba(255, 255, 255, 0.479) 34.373%, rgba(255, 255, 255, 0) 45.1%)", maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="Hero overlay" />
+          <div className="absolute flex h-[1119px] items-center justify-center left-[1781px] top-[49px] w-[2234px]" data-node-id="4012:5592">
+            <div className="flex-none rotate-180">
+              <div className="h-[1119px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[166.847px_-49px] mask-size-[2057.746px_1129px] relative w-[2234px]" style={{ backgroundImage: "linear-gradient(177.10386308210553deg, rgb(94, 58, 94) 5.4009%, rgba(255, 255, 255, 0) 57.173%)", maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="Hero overlay" />
+            </div>
+          </div>
+          <div className="absolute h-[1156px] left-[1924px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[23.847px_14px] mask-size-[2057.746px_1129px] top-[-14px] w-[2072px]" data-node-id="4015:1442" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="cee362ba3ef0e4322c4e68e86f4e69a3_ddcec58e-af75-45a9-a272-54b04cd74d06654654 1">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCee362Ba3Ef0E4322C4E68E86F4E69A3Ddcec58EAf7545A9A27254B04Cd74D066546541} />
+          </div>
+          <div className="absolute h-[390.924px] left-[2886.91px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-939.059px_-536.081px] mask-size-[2057.746px_1129px] top-[536.08px] w-[585px]" data-node-id="4015:1354" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector56} />
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[20.016px] leading-[1.043] left-[2365.91px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-418.059px_-934.085px] mask-size-[2057.746px_1129px] not-italic text-[24px] text-white top-[934.08px] w-[279.223px]" data-node-id="4015:1358" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            Кейс H2 Инжиниринг
+          </p>
+          <div className="absolute contents left-[3410.92px] top-[939.07px]" data-node-id="4015:1359">
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17.014px] leading-[1.043] left-[calc(50%+2587.53px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1597.181px_-967.09px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-white top-[967.09px] w-[21.017px]" data-node-id="4015:1360" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              км
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[50.415px] leading-[1.043] left-[calc(50%+2468.43px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1478.087px_-939.071px] mask-size-[2057.746px_1129px] not-italic text-[48px] text-white top-[939.07px] w-[95.788px]" data-node-id="4015:1361" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              500
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17.014px] leading-[1.043] left-[calc(50%+2453.42px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1463.075px_-1000.118px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-white top-[1000.12px] w-[123.098px]" data-node-id="4015:1362" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              без дозаправки
+            </p>
+            <div className="absolute h-[42.216px] left-[3410.92px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1463.075px_-942.073px] mask-size-[2057.746px_1129px] top-[942.07px] w-[125.856px]" data-node-id="4015:1363" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="[04]">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img04} />
+            </div>
+          </div>
+          <div className="absolute contents left-[3034.92px] top-[939.07px]" data-node-id="4015:1366">
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[83.18%_-63.29%_12.39%_159.42%] leading-[1.043] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1105.083px_-939.071px] mask-size-[2057.746px_1129px] not-italic text-[48px] text-white" data-node-id="4015:1367" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              2,5
+            </p>
+            <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[88.85%_-66.27%_8.14%_158.48%] leading-[0] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1087.075px_-1003.122px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-white" data-node-id="4015:1368" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              <p className="leading-[1.043] mb-0">максимальная</p>
+              <p className="leading-[1.043]">{`грузоподъемность `}</p>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[85.93%_-66.63%_12.57%_164.7%] leading-[1.043] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1206.169px_-970.094px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-white" data-node-id="4015:1369" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              тонн
+            </p>
+            <div className="absolute h-[42.216px] left-[3034.92px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1087.075px_-942.073px] mask-size-[2057.746px_1129px] top-[942.07px] w-[110.84px]" data-node-id="4015:1370" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="[04]">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img5} />
+            </div>
+          </div>
+          <div className="absolute contents left-[3251.92px] top-[939.07px]" data-node-id="4015:1373">
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[50.04px] leading-[1.043] left-[calc(50%+2314.44px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1324.091px_-939.071px] mask-size-[2057.746px_1129px] not-italic text-[48px] text-white top-[939.07px] w-[31.025px]" data-node-id="4015:1374" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              8
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17.141px] leading-[1.043] left-[calc(50%+2294.42px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1304.075px_-1000.118px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-white top-[1000.12px] w-[97.804px]" data-node-id="4015:1375" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              пассажиров
+            </p>
+            <div className="absolute h-[42.216px] left-[3251.92px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1304.075px_-942.073px] mask-size-[2057.746px_1129px] top-[942.07px] w-[69.817px]" data-node-id="4015:1376" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="[04]">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img6} />
+            </div>
+          </div>
+          <div className="absolute contents left-[2837.33px] top-[939.08px]" data-node-id="4015:1379">
+            <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34.282px] leading-[0] left-[calc(50%+1879.83px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-889.481px_-1003.134px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-white top-[1003.13px] w-[115.953px]" data-node-id="4015:1380" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              <p className="leading-[1.043] mb-0">максимальная</p>
+              <p className="leading-[1.043]">скорость</p>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[50.04px] leading-[1.043] left-[calc(50%+1895.84px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-905.497px_-939.083px] mask-size-[2057.746px_1129px] not-italic text-[48px] text-white top-[939.08px] w-[64.051px]" data-node-id="4015:1381" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              60
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17.014px] leading-[1.043] left-[calc(50%+1980.91px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-990.563px_-970.106px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-white top-[970.11px] w-[36.029px]" data-node-id="4015:1382" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+              км/ч
+            </p>
+            <div className="absolute h-[42.216px] left-[2837.33px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-889.481px_-942.085px] mask-size-[2057.746px_1129px] top-[942.08px] w-[92.829px]" data-node-id="4015:1383" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="[04]">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img7} />
+            </div>
+          </div>
+          <div className="absolute left-[2881.9px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-934.055px_-561.081px] mask-size-[2057.746px_1129px] size-[10.008px] top-[561.08px]" data-node-id="4015:1386" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2181} />
+          </div>
+          <div className="absolute left-[3137.92px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1190.075px_-714.069px] mask-size-[2057.746px_1129px] size-[10.008px] top-[714.07px]" data-node-id="4015:1387" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2182} />
+          </div>
+          <div className="absolute left-[3400.92px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1453.075px_-659.069px] mask-size-[2057.746px_1129px] size-[10.008px] top-[659.07px]" data-node-id="4015:1388" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2183} />
+          </div>
+          <div className="absolute left-[3212.92px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-1265.075px_-533.069px] mask-size-[2057.746px_1129px] size-[10.008px] top-[533.07px]" data-node-id="4015:1389" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2183} />
+          </div>
+          <div className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[66.053px] leading-[0] left-[calc(50%+1408.41px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-418.059px_-137.87px] mask-size-[2057.746px_1129px] not-italic text-[#823981] text-[32px] top-[137.87px] uppercase w-[426.341px]" data-node-id="4015:1355" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            <p className="leading-[1.043] mb-0">Первый российский</p>
+            <p className="leading-[1.043]">водородный вездеход</p>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[51.041px] leading-[1.087] left-[2367.91px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-420.059px_-259.29px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-black top-[259.29px] w-[642.513px]" data-node-id="4015:1356" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            Первый российский водородный вездеход «Русак К-10» и водородная заправочная станция – испытательный стенд для разработки и тестирования гибридных энергосистем водородного транспорта.
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28.022px] leading-[1.043] left-[2365.91px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-418.059px_-971.116px] mask-size-[2057.746px_1129px] not-italic text-[16px] text-white top-[971.12px] w-[233.186px]" data-node-id="4015:1357" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }}>
+            Вездеход и полигон ходовых испытаний
+          </p>
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%+13px)] top-0" data-node-id="4012:1515" data-name="Case / Белаз (слайд 01)">
+          <div className="absolute contents left-[-59px] top-0" data-node-id="4012:1516" data-name="Mask group">
+            <div className="absolute h-[854px] left-[-19.08px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-39.074px_-170.02px] mask-size-[2057.746px_1129px] top-[170.02px] w-[2244px]" data-node-id="4012:1518" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="eb6c14142ad8246505afd64fed8c5e5a_6e153c7f-f946-42f6-a62c-4b21c200a6ff 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff1} />
+            </div>
+            <div className="absolute h-[1292px] left-[-216.04px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[157.892px_28.99px] mask-size-[2057.746px_1129px] top-[-28.99px] w-[2564px]" data-node-id="4012:1519" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="eb6c14142ad8246505afd64fed8c5e5a_6e153c7f-f946-42f6-a62c-4b21c200a6ff (1) 1">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[88.53%] left-[5.58%] max-w-none top-[1.73%] w-[79.92%]" src={imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff13} />
+              </div>
+            </div>
+            <div className="absolute h-[1200px] left-[-216px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[157.847px_32px] mask-size-[2057.746px_1129px] top-[-32px] w-[2234px]" data-node-id="4012:1520" style={{ backgroundImage: "linear-gradient(160.49192923950886deg, rgba(255, 255, 255, 0.9) 7.7703%, rgba(255, 255, 255, 0.9) 7.7703%, rgba(255, 255, 255, 0.479) 18.561%, rgba(255, 255, 255, 0.479) 34.373%, rgba(255, 255, 255, 0) 45.1%)", maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="Hero overlay" />
+            <div className="absolute flex h-[1200px] items-center justify-center left-[-216px] top-[-32px] w-[2234px]" data-node-id="4012:1521">
+              <div className="flex-none rotate-180">
+                <div className="h-[1200px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[157.847px_32px] mask-size-[2057.746px_1129px] relative w-[2234px]" style={{ backgroundImage: "linear-gradient(176.8946189705207deg, rgb(94, 58, 94) 5.4009%, rgba(255, 255, 255, 0) 57.173%)", maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="Hero overlay" />
+              </div>
+            </div>
+            <div className="absolute h-[1149px] left-[-77px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[18.847px_10px] mask-size-[2057.746px_1129px] top-[-10px] w-[2059px]" data-node-id="4012:1522" style={{ maskImage: `url("${imgEb6C14142Ad8246505Afd64Fed8C5E5A6E153C7FF94642F6A62C4B21C200A6Ff11}")` }} data-name="dc922f9e52cc4fe602733b5 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDc922F9E52Cc4Fe602733B51} />
+            </div>
+          </div>
+          <div className="absolute h-[364.291px] left-[879.91px] top-[561.71px] w-[399.5px]" data-node-id="4012:1523">
+            <div className="absolute inset-[0_-0.13%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector57} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[66.053px] leading-[0] left-[calc(50%-598.59px)] not-italic text-[#823981] text-[32px] top-[136.87px] uppercase w-[426.341px]" data-node-id="4012:1524">
+            <p className="leading-[1.043] mb-0">Водородный карьерный</p>
+            <p className="leading-[1.043]">самосвал БЕЛАЗ</p>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[51.041px] leading-[1.087] left-[360.91px] not-italic text-[16px] text-black top-[258.29px] w-[642.513px]" data-node-id="4012:1525">
+            Водородный карьерный самосвал и заправочная инфраструктура — ключевой проект Н2 Инжиниринг для горнодобывающей отрасли.
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28.022px] leading-[1.043] left-[358.91px] not-italic text-[16px] text-white top-[970.12px] w-[233.186px]" data-node-id="4012:1526">
+            Карьерный самосвал и заправочная инфраструктура
+          </p>
+          <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[20.016px] leading-[1.043] left-[358.91px] not-italic text-[24px] text-white top-[933.09px] w-[279.223px]" data-node-id="4012:1527">
+            Кейс H2 Инжиниринг
+          </p>
+          <div className="absolute contents left-[1027.92px] top-[938px]" data-node-id="4012:1528">
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[83.08%_43.86%_12.49%_54.46%] leading-[1.043] not-italic text-[48px] text-white whitespace-nowrap" data-node-id="4012:1529">
+              4
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[88.75%_38.54%_7.88%_53.68%] leading-[1.043] not-italic text-[16px] text-white" data-node-id="4012:1530">
+              заправочных узла – до 20 кг/мин
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal inset-[85.83%_40.63%_12.49%_57.44%] leading-[1.043] not-italic text-[16px] text-white" data-node-id="4012:1531">
+              тонн
+            </p>
+            <div className="absolute h-[42.216px] left-[1027.92px] top-[941.07px] w-[65.84px]" data-node-id="4012:1532" data-name="[04]">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img8} />
+            </div>
+          </div>
+          <div className="absolute contents left-[1244.92px] top-[938.07px]" data-node-id="4012:1535">
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.043] left-[calc(50%+304.95px)] not-italic text-[42px] text-white top-[938.07px] whitespace-nowrap" data-node-id="4012:1536">
+              2
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[37px] leading-[1.043] left-[calc(50%+287.5px)] not-italic text-[16px] text-white top-[999px] w-[132px]" data-node-id="4012:1537">
+              мотор-колеса – до 2000 кВт
+            </p>
+            <div className="absolute h-[42.216px] left-[1244.92px] top-[941.07px] w-[61.84px]" data-node-id="4012:1538" data-name="[04]">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img9} />
+            </div>
+          </div>
+          <div className="absolute contents left-[830.33px] top-[938.08px]" data-node-id="4012:1541">
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34.282px] leading-[1.043] left-[calc(50%-127.17px)] not-italic text-[16px] text-white top-[1002.13px] w-[115.953px]" data-node-id="4012:1542">
+              более 250 кг за 15-20 мин
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.043] left-[calc(50%-112.64px)] not-italic text-[48px] text-white top-[938.08px] whitespace-nowrap" data-node-id="4012:1543">
+              350
+            </p>
+            <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17.014px] leading-[1.043] left-[calc(50%-1.5px)] not-italic text-[16px] text-white top-[969.11px] w-[36.029px]" data-node-id="4012:1544">
+              атм.
+            </p>
+            <div className="absolute h-[42.216px] left-[830.33px] top-[941.09px] w-[119.434px]" data-node-id="4012:1545" data-name="[04]">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img10} />
+            </div>
+          </div>
+          <div className="absolute left-[874.9px] size-[10.008px] top-[560.08px]" data-node-id="4012:1548">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2181} />
+          </div>
+          <div className="absolute left-[1115.99px] size-[10.008px] top-[557.5px]" data-node-id="4012:1549">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2184} />
+          </div>
+          <div className="absolute left-[1274px] size-[10.008px] top-[658px]" data-node-id="4012:1550">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2185} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[1354px] not-italic text-[14px] text-black top-[144.5px] whitespace-nowrap" data-node-id="4012:1555">
+          [01] / [02]
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[3297px] not-italic text-[14px] text-black top-[144.5px] whitespace-nowrap" data-node-id="4012:1556">
+          [02] / [02]
+        </p>
+        <div className="absolute content-stretch flex gap-[3px] items-center left-[2299px] top-[367px]" data-node-id="4012:1557" data-name="Button / Открыть кейс">
+          <div className="border border-solid border-white content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_5px_14px_0px_rgba(20,25,60,0.16)] shrink-0" data-node-id="I4012:1557;4012:3849" data-name="Pill">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+              <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+              <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgStateDefault} />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#823981] text-[16px] whitespace-nowrap" data-node-id="I4012:1557;4012:3850">
+              Открыть кейс
+            </p>
+          </div>
+          <div className="border border-solid border-white content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_5px_14px_0px_rgba(20,25,60,0.16)] shrink-0 size-[49px]" data-node-id="I4012:1557;4012:3851" data-name="Arrow">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+              <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+              <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgStateDefault} />
+            </div>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I4012:1557;4012:3852" data-name="arrow-right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight1} />
+            </div>
+          </div>
+        </div>
+        <ButtonPrimary1 className="absolute content-stretch flex gap-[3px] items-center left-[356px] top-[363px]" />
+      </div>
+      <ArrowPrevLight className="absolute border border-solid border-white content-stretch cursor-pointer drop-shadow-[0px_5px_7px_rgba(20,25,60,0.16)] flex items-center justify-center left-[calc(83.33%-155px)] rounded-[100px] size-[52px] top-[3450px]" />
+      <ArrowNextLight className="absolute border border-solid border-white content-stretch cursor-pointer drop-shadow-[0px_5px_7px_rgba(20,25,60,0.16)] flex items-center justify-center left-[calc(91.67%-251px)] rounded-[100px] size-[52px] top-[3450px]" />
+      <div className="absolute content-stretch flex gap-[3px] items-center left-[calc(75%-168px)] top-[4395px]" data-node-id="4012:1561" data-name="Button / Смотреть все проекты">
+        <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0" data-node-id="I4012:1561;4012:3836" data-name="Pill">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="I4012:1561;4012:3837">
+            Смотреть все проекты
+          </p>
+        </div>
+        <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0 size-[49px]" data-node-id="I4012:1561;4012:3838" data-name="Arrow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I4012:1561;4012:3839" data-name="arrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[-5px] top-[4566px]" data-node-id="4012:1562">
+        <div className="absolute bg-[#f7f7f7] h-[588px] left-[-5px] top-[4807px] w-[1920px]" data-node-id="4012:1563" />
+        <div className="absolute contents left-[362px] top-[4753.32px]" data-node-id="4012:1564" data-name="Mask group">
+          <div className="absolute h-[429px] left-[362px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[1199px_429px] top-[4753.32px] w-[1199px]" data-node-id="4012:1566" style={{ maskImage: `url("${imgCardBgDark}")` }} data-name="Card bg (dark)">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCardBgDark1} />
+          </div>
+          <div className="absolute h-[457px] left-[308px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[54px_28.324px] mask-size-[1199px_429px] top-[4725px] w-[1497px]" data-node-id="4012:1567" style={{ maskImage: `url("${imgCardBgDark}")` }} data-name="5bb3483373a64297aa7a6f144fa8250b___AIE 1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-full left-[-18.1%] max-w-none top-[1.55%] w-[107.28%]" src={img5Bb3483373A64297Aa7A6F144Fa8250BAie1} />
+            </div>
+          </div>
+          <div className="absolute h-[804px] left-[229px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[133px_195.324px] mask-size-[1199px_429px] top-[4558px] w-[1442px]" data-node-id="4040:1380" style={{ maskImage: `url("${imgCardBgDark}")` }} data-name="f13d4ca85ad60c8e4d690d397c172fb6_aad80ce3-ff28-4240-a12a-d49825b8c5ff 1">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgF13D4Ca85Ad60C8E4D690D397C172Fb6Aad80Ce3Ff284240A12AD49825B8C5Ff1} />
+          </div>
+          <div className="absolute h-[557px] left-[214px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[148px_42.324px] mask-size-[1199px_429px] top-[4711px] w-[1323px]" data-node-id="4040:1381" style={{ backgroundImage: "linear-gradient(164.48123424845255deg, rgba(255, 255, 255, 0.9) 7.7703%, rgba(255, 255, 255, 0) 45.1%)", maskImage: `url("${imgCardBgDark}")` }} data-name="Hero overlay" />
+          <div className="absolute flex h-[557px] items-center justify-center left-[213px] top-[4734px] w-[1411px]" data-node-id="4040:1383">
+            <div className="-scale-y-100 flex-none">
+              <div className="h-[557px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[149px_19.324px] mask-size-[1199px_429px] relative w-[1411px]" style={{ backgroundImage: "linear-gradient(165.40649645369723deg, rgba(255, 255, 255, 0.9) 7.7703%, rgba(255, 255, 255, 0) 45.1%)", maskImage: `url("${imgCardBgDark}")` }} data-name="Hero overlay" />
+            </div>
+          </div>
+          <div className="absolute h-[494px] left-[253px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[109px_90.324px] mask-size-[1199px_429px] top-[4663px] w-[1734px]" data-node-id="4012:1569" style={{ maskImage: `url("${imgCardBgDark}")` }} data-name="6206884d2bad205f733397519dfd486a_867b7a7d-c390-470a-8b39-c64900e356d9 1" />
+        </div>
+        <div className="absolute contents left-[calc(50%+14px)] top-[5213px]" data-node-id="4012:1573">
+          <div className="absolute contents left-[calc(50%+14px)] top-[5213px]" data-node-id="4012:1574" data-name="Mask group">
+            <div className="absolute h-[1186px] left-[-476px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1450px_613.359px] mask-size-[587px_572.598px] top-[4599.64px] w-[2589px]" data-node-id="4012:1576" style={{ maskImage: `url("${img41}")` }} data-name="4 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img42} />
+            </div>
+            <div className="absolute h-[619px] left-[calc(25%+225px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[269px_8px] mask-size-[587px_572.598px] top-[5205px] w-[1101px]" data-node-id="4012:1577" style={{ maskImage: `url("${img41}")` }} data-name="07_Hydrogen_bus_station 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img07HydrogenBusStation1} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[360px] top-[5213px]" data-node-id="4012:1578">
+          <div className="absolute contents left-[360px] top-[5213px]" data-node-id="4012:1579" data-name="Mask group">
+            <div className="absolute bg-[#232535] h-[650px] left-[306px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[54px_38.676px] mask-size-[587px_572.598px] top-[5174.32px] w-[694px]" data-node-id="4012:1581" style={{ maskImage: `url("${imgRectangle362}")` }} />
+            <div className="absolute h-[573px] left-[360px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[587px_572.598px] rounded-[30px] top-[5213px] w-[589px]" data-node-id="4012:1582" style={{ maskImage: `url("${imgRectangle362}")` }} data-name="57aa757f717743659c4c0373f8cc9fc9_bananalab-pro_2K 1">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[30px]">
+                <img alt="" className="absolute h-[101.73%] left-[-46.41%] max-w-none top-[-2.14%] w-[177.31%]" src={img57Aa757F717743659C4C0373F8Cc9Fc9BananalabPro2K1} />
+              </div>
+            </div>
+            <div className="absolute h-[601px] left-[309px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[51px_21.359px] mask-size-[587px_572.598px] top-[5191.64px] w-[1234px]" data-node-id="4012:1583" style={{ maskImage: `url("${imgRectangle362}")` }} data-name="Gemini_Generated_Image_celw1wcelw1wcelw 1">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[114.37%] left-[-31.69%] max-w-none top-[-7.1%] w-[99.74%]" src={imgGeminiGeneratedImageCelw1Wcelw1Wcelw1} />
+              </div>
+            </div>
+            <div className="absolute h-[573px] left-[78px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[282px_0px] mask-size-[587px_572.598px] top-[5213px] w-[1018px]" data-node-id="4012:1584" style={{ maskImage: `url("${imgRectangle362}")` }} data-name="08_Mobile_refueling_station 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img08MobileRefuelingStation1} />
+            </div>
+          </div>
+        </div>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[calc(12.5%+258px)] not-italic text-[0px] text-black text-center top-[4566px] whitespace-nowrap" data-node-id="4012:1585">
+          <span className="leading-[1.043] text-[32px]">{`НАШИ `}</span>
+          <span className="leading-[1.043] text-[#823981] text-[32px]">ПРОЕКТЫ</span>
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[64px] leading-[normal] left-[calc(50%+12px)] not-italic text-[24px] text-black top-[5810px] w-[266px]" data-node-id="4012:1586">
+          Н2 – инфраструктура
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[362px] not-italic text-[24px] text-black top-[5810px] w-[374px]" data-node-id="4012:1587">
+          Мобильная водородная заправочная станция
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[402px] not-italic text-[24px] text-black top-[4796px] w-[380px]" data-node-id="4012:1588">
+          Русак К-10 — первый российский водородный вездеход
+        </p>
+        <div className="absolute contents left-[calc(91.67%-301px)] top-[5714px]" data-node-id="4012:1589">
+          <div className="absolute contents left-[calc(91.67%-301px)] top-[5714px]" data-node-id="4012:1590">
+            <div className="absolute h-[71.913px] left-[calc(91.67%-301px)] top-[5714px] w-[69.97px]" data-node-id="4012:1591">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="71.913" src={imgEllipse2137} width="69.97" />
+            </div>
+            <div className="absolute left-[calc(91.67%-275.02px)] size-[18px] top-[5740.96px]" data-node-id="4012:1592" data-name="Arrow / project card">
+              <div className="absolute inset-[-6.94%]">
+                <img alt="" className="block max-w-none size-full" src={imgArrowProjectCard} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[calc(41.67%+49px)] top-[5714px]" data-node-id="4012:1593">
+          <div className="absolute contents left-[calc(41.67%+49px)] top-[5714px]" data-node-id="4012:1594">
+            <div className="absolute h-[71.913px] left-[calc(41.67%+49px)] top-[5714px] w-[69.97px]" data-node-id="4012:1595">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="71.913" src={imgEllipse2137} width="69.97" />
+            </div>
+            <div className="absolute left-[calc(41.67%+74.98px)] size-[18px] top-[5740.96px]" data-node-id="4012:1596" data-name="Arrow / project card">
+              <div className="absolute inset-[-6.94%]">
+                <img alt="" className="block max-w-none size-full" src={imgArrowProjectCard} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.087] left-[362px] not-italic text-[16px] text-black top-[4663px] w-[722px]" data-node-id="4012:1597">{`Уникальные инженерные решения для оптимизации энергетических затрат на жизненном цикле для тяжёлого коммерческого транспорта, больших парков коммерческих флотов (автобусы, тягачи, коммерческая техника, суда, погрузчики) `}</p>
+      </div>
+      <div className="absolute content-stretch flex gap-[3px] items-center left-[402px] top-[5095px]" data-node-id="4012:1598" data-name="Button / Открыть кейс (проект)">
+        <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0" data-node-id="I4012:1598;4012:3836" data-name="Pill">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="I4012:1598;4012:3837">
+            Открыть кейс
+          </p>
+        </div>
+        <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0 size-[49px]" data-node-id="I4012:1598;4012:3838" data-name="Arrow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I4012:1598;4012:3839" data-name="arrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[64px] items-start left-[360px] top-[5994px] w-[1201px]" data-node-id="4012:1599" data-name="НАШИ ПАРТНЁРЫ">
+        <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[#111] text-[32px] w-full" data-node-id="4012:1600">
+          <span className="leading-[normal]">{`НАШИ `}</span>
+          <span className="leading-[normal] text-[#823981]">ПАРТНЁРЫ</span>
+        </p>
+        <div className="content-stretch flex gap-[29px] items-center relative shrink-0 w-full" data-node-id="4012:1601" data-name="НАШИ ПАРТНЁРЫ">
+          <div className="bg-white border border-[#e2e5ee] border-solid h-[190px] overflow-clip relative rounded-[20px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0 w-[176px]" data-node-id="4012:1602" data-name="Partner / Министерство">
+            <div className="absolute h-[84px] left-[27px] top-[25px] w-[120px]" data-node-id="4012:1603" data-name="Logo">
+              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgLogo} />
+            </div>
+            <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[87px] not-italic text-[#505464] text-[13px] text-center top-[127px] w-[152px]" data-node-id="4012:1604">
+              <p className="leading-[normal] mb-0">Министерство</p>
+              <p className="leading-[normal]">энергетики РФ</p>
+            </div>
+          </div>
+          <div className="bg-white border border-[#e2e5ee] border-solid h-[190px] overflow-clip relative rounded-[20px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0 w-[176px]" data-node-id="4012:1605" data-name="Partner / Министерство">
+            <div className="absolute h-[84px] left-[27px] top-[25px] w-[120px]" data-node-id="4012:1606" data-name="Logo">
+              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgLogo1} />
+            </div>
+            <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[87px] not-italic text-[#505464] text-[13px] text-center top-[127px] w-[152px]" data-node-id="4012:1607">
+              <p className="leading-[normal] mb-0">Министерство</p>
+              <p className="leading-[normal]">науки и образования</p>
+            </div>
+          </div>
+          <div className="bg-white border border-[#e2e5ee] border-solid h-[190px] overflow-clip relative rounded-[20px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0 w-[176px]" data-node-id="4012:1608" data-name="Partner / Минпромторг">
+            <div className="absolute h-[84px] left-[27px] top-[25px] w-[120px]" data-node-id="4012:1609" data-name="Logo">
+              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgLogo2} />
+            </div>
+            <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[87px] not-italic text-[#505464] text-[13px] text-center top-[127px] w-[152px]" data-node-id="4012:1610">
+              <p className="leading-[normal] mb-0">Минпромторг</p>
+              <p className="leading-[normal]">России</p>
+            </div>
+          </div>
+          <div className="bg-white border border-[#e2e5ee] border-solid h-[190px] overflow-clip relative rounded-[20px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0 w-[176px]" data-node-id="4012:1611" data-name="Partner / Ямало-Ненецкий">
+            <div className="absolute h-[84px] left-[27px] top-[25px] w-[120px]" data-node-id="4012:1612" data-name="Logo">
+              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgLogo3} />
+            </div>
+            <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[87px] not-italic text-[#505464] text-[13px] text-center top-[127px] w-[152px]" data-node-id="4012:1613">
+              <p className="leading-[normal] mb-0">Ямало-Ненецкий</p>
+              <p className="leading-[normal]">автономный округ</p>
+            </div>
+          </div>
+          <div className="bg-white border border-[#e2e5ee] border-solid h-[190px] overflow-clip relative rounded-[20px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0 w-[176px]" data-node-id="4012:1614" data-name="Partner / Сахалинская">
+            <div className="absolute h-[84px] left-[27px] top-[25px] w-[120px]" data-node-id="4012:1615" data-name="Logo">
+              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgLogo4} />
+            </div>
+            <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[87px] not-italic text-[#505464] text-[13px] text-center top-[127px] w-[152px]" data-node-id="4012:1616">
+              <p className="leading-[normal] mb-0">Сахалинская</p>
+              <p className="leading-[normal]">область</p>
+            </div>
+          </div>
+          <div className="bg-white border border-[#e2e5ee] border-solid h-[190px] overflow-clip relative rounded-[20px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] shrink-0 w-[176px]" data-node-id="4012:1617" data-name="Partner / Энерджинет">
+            <div className="absolute h-[84px] left-[27px] top-[25px] w-[120px]" data-node-id="4012:1618" data-name="Logo">
+              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgLogo5} />
+            </div>
+            <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[87px] not-italic text-[#505464] text-[13px] text-center top-[127px] w-[152px]" data-node-id="4012:1619">
+              <p className="leading-[normal] mb-0">Энерджинет</p>
+              <p className="leading-[normal]">(НТИ)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[360px] not-italic text-[#111] text-[32px] top-[6450px] whitespace-nowrap" data-node-id="4012:1620">
+        <span className="leading-[normal]">{`ПРЕССА `}</span>
+        <span className="leading-[normal] text-[#823981]">О НАС</span>
+      </p>
+      <div className="absolute bg-[#823981] content-stretch flex items-start left-[calc(16.67%+309px)] overflow-clip px-[12px] py-[6px] rounded-[100px] top-[6458px]" data-node-id="4012:1621" data-name="Badge / Info">
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="4012:1622">
+          Публикации в СМИ и отраслевых изданиях
+        </p>
+      </div>
+      <a className="absolute content-stretch cursor-pointer flex gap-[3px] items-center left-[calc(75%-115px)] top-[6444px]" data-node-id="4012:1623" data-name="Button / Все публикации">
+        <div className="border border-solid border-white content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_5px_14px_0px_rgba(20,25,60,0.16)] shrink-0" data-node-id="I4012:1623;4012:3849" data-name="Pill">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgStateDefault} />
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#823981] text-[16px] text-left whitespace-nowrap" data-node-id="I4012:1623;4012:3850">
+            Все публикации
+          </p>
+        </div>
+        <div className="border border-solid border-white content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_5px_14px_0px_rgba(20,25,60,0.16)] shrink-0 size-[49px]" data-node-id="I4012:1623;4012:3851" data-name="Arrow">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgStateDefault} />
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I4012:1623;4012:3852" data-name="arrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight1} />
+          </div>
+        </div>
+      </a>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[360px] not-italic text-[#111] text-[32px] top-[6988px] whitespace-nowrap" data-node-id="4012:1624">
+        <span className="leading-[normal]">КАРЬЕРА</span>
+        <span className="leading-[normal] text-[#823981]">{` В КОМПАНИИ`}</span>
+      </p>
+      <div className="absolute bg-[#823981] content-stretch flex items-start left-[calc(33.33%+122px)] overflow-clip px-[12px] py-[6px] rounded-[100px] top-[6996px]" data-node-id="4012:1625" data-name="Badge / Info">
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="4012:1626">
+          6 открытых вакансий
+        </p>
+      </div>
+      <div className="absolute border border-[rgba(255,255,255,0.18)] border-solid h-[330px] left-[360px] overflow-clip rounded-[32px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] top-[7076px] w-[1200px]" data-node-id="4012:1627" data-name="Careers panel">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[32px]">
+          <div className="absolute inset-0 rounded-[32px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[32px] size-full" src={imgStateDefault} />
+        </div>
+        <div className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[47px] not-italic text-[#823981] text-[30px] top-[43px] w-[440px]" data-node-id="4012:1628">
+          <p className="leading-[normal] mb-0">Присоединяйтесь</p>
+          <p className="leading-[normal]">к команде</p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.5] left-[47px] not-italic text-[16px] text-[rgba(0,0,0,0.75)] top-[135px] w-[440px] whitespace-pre-wrap" data-node-id="4012:1629">
+          {`Реальные проекты, сильная команда, `}
+          <br aria-hidden />
+          гибкий график и ДМС.
+        </p>
+        <a className="absolute content-stretch cursor-pointer flex gap-[3px] items-center left-[47px] top-[230px]" data-node-id="4012:1630" data-name="Button / Все вакансии">
+          <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0" data-node-id="I4012:1630;4012:3836" data-name="Pill">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+              <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+              <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[16px] text-left text-white whitespace-nowrap" data-node-id="I4012:1630;4012:3837">
+              Все вакансии
+            </p>
+          </div>
+          <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0 size-[49px]" data-node-id="I4012:1630;4012:3838" data-name="Arrow">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+              <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+              <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgPill} />
+            </div>
+            <div className="relative shrink-0 size-[18px]" data-node-id="I4012:1630;4012:3839" data-name="arrow-right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </a>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[559px] not-italic text-[20px] text-black top-[45px] whitespace-nowrap" data-node-id="4012:1631">
+          Инженер-конструктор
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[559px] not-italic text-[14px] text-[rgba(0,0,0,0.6)] top-[77px] whitespace-nowrap" data-node-id="4012:1632">
+          Москва · гибрид
+        </p>
+        <div className="absolute bg-[rgba(0,0,0,0.15)] h-px left-[559px] top-[111px] w-[592px]" data-node-id="4012:1633" data-name="Divider" />
+        <div className="absolute border-[0.7px] border-solid border-white content-stretch drop-shadow-[0px_3.5px_4.9px_rgba(20,25,60,0.16)] flex items-center justify-center left-[1114.6px] rounded-[70px] size-[36.4px] top-[47px]" data-node-id="4012:1634" data-name="Arrow / Next (light)">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[70px]">
+            <div className="absolute inset-0 rounded-[70px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[70px] size-full" src={imgStateDefault} />
+          </div>
+          <div className="relative shrink-0 size-[12.6px]" data-node-id="I4012:1634;4012:3869" data-name="arrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight2} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[559px] not-italic text-[20px] text-black top-[129px] whitespace-nowrap" data-node-id="4012:1635">
+          Инженер по испытаниям
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[559px] not-italic text-[14px] text-[rgba(0,0,0,0.6)] top-[161px] whitespace-nowrap" data-node-id="4012:1636">
+          Зеленоград · офис
+        </p>
+        <div className="absolute bg-[rgba(0,0,0,0.15)] h-px left-[559px] top-[195px] w-[592px]" data-node-id="4012:1637" data-name="Divider" />
+        <div className="absolute border-[0.7px] border-solid border-white content-stretch drop-shadow-[0px_3.5px_4.9px_rgba(20,25,60,0.16)] flex items-center justify-center left-[1114.6px] rounded-[70px] size-[36.4px] top-[131px]" data-node-id="4012:1638" data-name="Arrow / Next (light)">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[70px]">
+            <div className="absolute inset-0 rounded-[70px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[70px] size-full" src={imgStateDefault} />
+          </div>
+          <div className="relative shrink-0 size-[12.6px]" data-node-id="I4012:1638;4012:3869" data-name="arrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight2} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[559px] not-italic text-[20px] text-black top-[213px] whitespace-nowrap" data-node-id="4012:1639">
+          Руководитель проектов
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[559px] not-italic text-[14px] text-[rgba(0,0,0,0.6)] top-[245px] whitespace-nowrap" data-node-id="4012:1640">
+          Москва · офис
+        </p>
+        <div className="absolute bg-[rgba(255,255,255,0.15)] h-px left-[559px] top-[279px] w-[592px]" data-node-id="4012:1641" data-name="Divider" />
+        <div className="absolute border-[0.7px] border-solid border-white content-stretch drop-shadow-[0px_3.5px_4.9px_rgba(20,25,60,0.16)] flex items-center justify-center left-[1114.6px] rounded-[70px] size-[36.4px] top-[215px]" data-node-id="4012:1642" data-name="Arrow / Next (light)">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[70px]">
+            <div className="absolute inset-0 rounded-[70px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[70px] size-full" src={imgStateDefault} />
+          </div>
+          <div className="relative shrink-0 size-[12.6px]" data-node-id="I4012:1642;4012:3869" data-name="arrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight2} />
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[360px] not-italic text-[#111] text-[32px] top-[7526px] whitespace-nowrap" data-node-id="4012:1643">
+        <span className="leading-[normal]">{`НАШИ `}</span>
+        <span className="leading-[normal] text-[#823981]">КОНТАКТЫ</span>
+      </p>
+      <ButtonPrimary className="absolute content-stretch cursor-pointer flex gap-[3px] items-center left-[360px] top-[7789px]" />
+      <div className="absolute bg-white border border-[#e2e5ee] border-solid h-[340px] left-[360px] overflow-clip rounded-[24px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] top-[8087px] w-[1200px]" data-node-id="4012:1645" data-name="Requisites card">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[31px] not-italic text-[#111] text-[22px] top-[27px] whitespace-nowrap" data-node-id="4012:1646">
+          Реквизиты
+        </p>
+        <div className="absolute bg-[#823981] content-stretch flex items-start left-[167px] overflow-clip px-[12px] py-[6px] rounded-[100px] top-[27px]" data-node-id="4012:1647" data-name="Badge / Info">
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="4012:1648">
+            Для договоров и платёжных документов
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[31px] not-italic text-[#787c8c] text-[12px] top-[85px] w-[316px]" data-node-id="4012:1649">
+          Полное наименование
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[31px] not-italic text-[#111] text-[15px] top-[103px] w-[316px]" data-node-id="4012:1650">
+          ООО «Н2 Инжиниринг»
+        </p>
+        <div className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[0] left-[699px] not-italic text-[#111] text-[0px] top-[82px] w-[462px] whitespace-pre-wrap" data-node-id="4012:1651">
+          <p className="leading-[normal] mb-0 text-[15px]">
+            ООО «ИНЖИНИРИНГОВЫЙ ЦЕНТР
+            <br aria-hidden />
+            «АВТОНОМНАЯ ЭНЕРГЕТИКА»
+          </p>
+          <p className="mb-0">
+            <span className="leading-[normal] text-[15px]">
+              <br aria-hidden />
+            </span>
+            <span className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic text-[12px]">Полное наименование организации:</span>
+            <span className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic text-[12px]">
+              <br aria-hidden />
+              {`ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ `}
+              <br aria-hidden />
+              «ИНЖИНИРИНГОВЫЙ ЦЕНТР «АВТОНОМНАЯ ЭНЕРГЕТИКА»
+            </span>
+          </p>
+          <p className="mb-0 text-[12px]">
+            <span className="font-['Inter:Regular'] font-normal leading-[normal]">
+              <br aria-hidden />
+            </span>
+            <span className="font-['Inter:Semi_Bold'] font-semibold leading-[normal]">{`Сокращенное наименование организации: `}</span>
+            <span className="font-['Inter:Regular'] font-normal leading-[normal]">
+              <br aria-hidden />
+              ООО «ИЦ «АВТОНОМНАЯ ЭНЕРГЕТИКА»
+            </span>
+          </p>
+          <p className="mb-0 text-[12px]">
+            <span className="font-['Inter:Regular'] font-normal leading-[normal]">
+              <br aria-hidden />
+            </span>
+            <span className="font-['Inter:Semi_Bold'] font-semibold leading-[normal]">Юр. адрес:</span>
+            <span className="font-['Inter:Regular'] font-normal leading-[normal]">
+              {` г. Москва, вн.тер. г. Муниципальный округ Старое Крюково, `}
+              <br aria-hidden />
+              г. Зеленоград, пр-кт Георгиевский, д. 5, помещ. 3а
+            </span>
+          </p>
+          <p>
+            <span className="font-['Inter:Regular'] font-normal leading-[normal] text-[12px]">
+              <br aria-hidden />
+            </span>
+            <span className="font-['Inter:Semi_Bold'] font-semibold leading-[normal] text-[12px]">Контактная информация:</span>
+            <span className="font-['Inter:Regular'] font-normal leading-[normal] text-[12px]">{` +7 (499) 911-67-19`}</span>
+            <span className="font-['Inter:Regular'] font-normal leading-[normal] text-[15px]">
+              <br aria-hidden />
+              <br aria-hidden />
+            </span>
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[31px] not-italic text-[#787c8c] text-[12px] top-[143px] w-[316px]" data-node-id="4012:1652">
+          ИНН / КПП
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[31px] not-italic text-[#111] text-[15px] top-[161px] w-[316px]" data-node-id="4012:1653">
+          7700000000 / 770001001
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[31px] not-italic text-[#787c8c] text-[12px] top-[201px] w-[316px]" data-node-id="4012:1654">
+          ОГРН
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[31px] not-italic text-[#111] text-[15px] top-[219px] w-[316px]" data-node-id="4012:1655">
+          1000000000000
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[31px] not-italic text-[#787c8c] text-[12px] top-[259px] w-[316px]" data-node-id="4012:1656">
+          Юридический адрес
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[31px] not-italic text-[#111] text-[15px] top-[277px] w-[316px]" data-node-id="4012:1657">
+          124482, г. Москва, г. Зеленоград, Савёлкинский проезд, д. 4
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[383px] not-italic text-[#787c8c] text-[12px] top-[85px] w-[316px]" data-node-id="4012:1658">
+          Банк
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[383px] not-italic text-[#111] text-[15px] top-[103px] w-[316px]" data-node-id="4012:1659">
+          АО «Образцовый банк»
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[383px] not-italic text-[#787c8c] text-[12px] top-[143px] w-[316px]" data-node-id="4012:1660">
+          БИК
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[383px] not-italic text-[#111] text-[15px] top-[161px] w-[316px]" data-node-id="4012:1661">
+          044500000
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[383px] not-italic text-[#787c8c] text-[12px] top-[201px] w-[316px]" data-node-id="4012:1662">
+          Расчётный счёт
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[383px] not-italic text-[#111] text-[15px] top-[219px] w-[316px]" data-node-id="4012:1663">
+          40702810100000012345
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[383px] not-italic text-[#787c8c] text-[12px] top-[259px] w-[316px]" data-node-id="4012:1664">
+          Корреспондентский счёт
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[383px] not-italic text-[#111] text-[15px] top-[277px] w-[316px]" data-node-id="4012:1665">
+          30101810000000000999
+        </p>
+      </div>
+      <div className="absolute h-[612px] left-[360px] overflow-x-auto overflow-y-clip top-[1900px] w-[1560px]" data-node-id="4012:1666" data-name="Slider / Преимущества (прокрутка)">
+        <div className="absolute contents left-0 top-[10px]" data-node-id="4012:1667" data-name="Mask group">
+          <div className="absolute left-[-227.13px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[227.125px_83.459px] mask-size-[427.846px_588px] size-[886.254px] top-[-73.46px]" data-node-id="4012:1669" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="b921c58afa624496b04f56e7f2d62c80_bananalab-pro_2K 2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K3} />
+          </div>
+          <div className="absolute bg-gradient-to-b from-[rgba(13,15,31,0.55)] h-[588px] left-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[427.846px_588px] to-3/4 to-[rgba(13,15,31,0)] top-[10px] via-1/2 via-[rgba(13,15,31,0.12)] w-[428px]" data-node-id="4012:1671" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="Text legibility overlay" />
+        </div>
+        <div className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[60px] leading-[0] left-[23px] not-italic text-[20px] text-white top-[33px] w-[385px] whitespace-pre-wrap" data-node-id="4012:1672">
+          <p className="leading-[normal] mb-0">{`Экономически `}</p>
+          <p className="leading-[normal]">{`целесообразные инновации `}</p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[39px] leading-[normal] left-[25px] not-italic text-[16px] text-white top-[100px] w-[288px]" data-node-id="4012:1673">
+          для Российской промышленности
+        </p>
+        <div className="absolute flex h-[73.017px] items-center justify-center left-[352.12px] top-[524.81px] w-[73.02px]" data-node-id="4012:1674">
+          <div className="-rotate-90 flex-none">
+            <div className="h-[73.02px] relative w-[73.017px]">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="73.02" src={imgEllipse2138} width="73.017" />
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[47px] left-[374px] top-[538px] w-[31px]" data-node-id="4012:1675" data-name="5429ca58a84099067b9e6d3120228 3">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[229.6%] left-[-61.9%] max-w-none top-[-9.2%] w-[439.85%]" src={img5429Ca58A84099067B9E6D31202283} />
+          </div>
+        </div>
+        <div className="absolute contents left-[468px] top-[10px]" data-node-id="4012:1676" data-name="Mask group">
+          <div className="absolute left-[240.88px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[227.125px_83.459px] mask-size-[427.846px_588px] size-[886.254px] top-[-73.46px]" data-node-id="4012:1678" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="b921c58afa624496b04f56e7f2d62c80_bananalab-pro_2K 2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K3} />
+          </div>
+          <div className="absolute h-[1326px] left-[58px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[410px_256px] mask-size-[427.846px_588px] top-[-246px] w-[995px]" data-node-id="4012:1679" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="e5a0269c620a3f51ada1efe1b91f3430_4b0fc1df-09fb-420a-bbf2-085edc9c68ac (2) 1">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgE5A0269C620A3F51Ada1Efe1B91F34304B0Fc1Df09Fb420ABbf2085Edc9C68Ac21} />
+          </div>
+          <div className="absolute h-[1214px] left-[117px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[351px_224px] mask-size-[427.846px_588px] top-[-214px] w-[910px]" data-node-id="4012:1680" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="b7d5cb79020bff49f29c4935e6dc61e3_54a6a779-a129-4364-b589-55763075e3de 2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgB7D5Cb79020Bff49F29C4935E6Dc61E354A6A779A1294364B58955763075E3De2} />
+          </div>
+          <div className="absolute bg-gradient-to-b from-[rgba(13,15,31,0.55)] h-[588px] left-[468px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[427.846px_588px] to-3/4 to-[rgba(13,15,31,0)] top-[10px] via-1/2 via-[rgba(13,15,31,0.12)] w-[428px]" data-node-id="4012:1682" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="Text legibility overlay" />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[60px] leading-[normal] left-[491px] not-italic text-[20px] text-white top-[33px] w-[385px]" data-node-id="4012:1683">
+          Безопасность и техническая эффективность
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[39px] leading-[normal] left-[493px] not-italic text-[16px] text-white top-[100px] w-[288px]" data-node-id="4012:1684">
+          для заказчика
+        </p>
+        <div className="absolute left-[820px] size-[73px] top-[525px]" data-node-id="4012:1685" data-name="Notch circle 02">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" height="73" src={imgNotchCircle02} width="73" />
+        </div>
+        <div className="absolute h-[43px] left-[839.5px] top-[540px] w-[34px]" data-node-id="4012:1686" data-name="5429ca58a84099067b9e6d3120228 1">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[256.25%] left-[-247.93%] max-w-none top-[-15.18%] w-[395.86%]" src={img5429Ca58A84099067B9E6D31202283} />
+          </div>
+        </div>
+        <div className="absolute contents left-[936px] top-[10px]" data-node-id="4012:1687" data-name="Mask group">
+          <div className="absolute left-[708.88px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[227.125px_83.459px] mask-size-[427.846px_588px] size-[886.254px] top-[-73.46px]" data-node-id="4012:1689" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="b921c58afa624496b04f56e7f2d62c80_bananalab-pro_2K 2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K3} />
+          </div>
+          <div className="absolute flex h-[1016.815px] items-center justify-center left-[687.49px] top-[-184.41px] w-[827.015px]" data-node-id="4012:1691">
+            <div className="flex-none rotate-[11.92deg]">
+              <div className="h-[900.927px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[248.507px_194.408px] mask-size-[427.846px_588px] relative w-[655.016px]" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="Card 03 image (generated)">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCard03ImageGenerated} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute bg-gradient-to-b from-[rgba(13,15,31,0.55)] h-[588px] left-[936px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[427.846px_588px] to-3/4 to-[rgba(13,15,31,0)] top-[10px] via-1/2 via-[rgba(13,15,31,0.12)] w-[428px]" data-node-id="4012:1692" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="Text legibility overlay" />
+        </div>
+        <div className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[60px] leading-[0] left-[959px] not-italic text-[20px] text-white top-[33px] w-[385px]" data-node-id="4012:1693">
+          <p className="leading-[normal] mb-0">Внедрение лучших</p>
+          <p className="leading-[normal]">технологий</p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[961px] not-italic text-[16px] text-white top-[100px] whitespace-pre" data-node-id="4012:1694">
+          {`На базе кооперации `}
+          <br aria-hidden />с ведущим инженерным ВУЗом России
+        </p>
+        <div className="absolute left-[1288px] size-[73px] top-[525px]" data-node-id="4012:1695" data-name="Notch circle 03">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" height="73" src={imgNotchCircle02} width="73" />
+        </div>
+        <div className="absolute h-[36px] left-[1298px] top-[543.5px] w-[53px]" data-node-id="4012:1696" data-name="5429ca58a84099067b9e6d3120228 2">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[302.11%] left-[-14.79%] max-w-none top-[-167.89%] w-[255.39%]" src={img5429Ca58A84099067B9E6D31202283} />
+          </div>
+        </div>
+        <div className="absolute contents left-[1404px] top-[10px]" data-node-id="4012:1697" data-name="Mask group">
+          <div className="absolute left-[1176.88px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[227.125px_83.459px] mask-size-[427.846px_588px] size-[886.254px] top-[-73.46px]" data-node-id="4012:1699" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="b921c58afa624496b04f56e7f2d62c80_bananalab-pro_2K 2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K3} />
+          </div>
+          <div className="absolute h-[829px] left-[1214px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[190px_164px] mask-size-[427.846px_588px] top-[-154px] w-[728px]" data-node-id="4012:1700" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="a041d5944f221f9e5e3b73a3ba32ff0e_71594dec-29fb-420f-87f3-831da8adfb34 1">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgA041D5944F221F9E5E3B73A3Ba32Ff0E71594Dec29Fb420F87F3831Da8Adfb341} />
+          </div>
+          <div className="absolute bg-gradient-to-b from-[rgba(13,15,31,0.55)] h-[588px] left-[1404px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[427.846px_588px] to-3/4 to-[rgba(13,15,31,0)] top-[10px] via-1/2 via-[rgba(13,15,31,0.12)] w-[428px]" data-node-id="4012:1702" style={{ maskImage: `url("${imgB921C58Afa624496B04F56E7F2D62C80BananalabPro2K2}")` }} data-name="Text legibility overlay" />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[43px] leading-[normal] left-[1427px] not-italic text-[20px] text-white top-[28px] w-[217px]" data-node-id="4012:1703">
+          Перспективные решения
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[39px] leading-[normal] left-[1429px] not-italic text-[16px] text-white top-[95px] w-[187px]" data-node-id="4012:1704">
+          прошедшие испытания и сертификацию
+        </p>
+        <div className="absolute left-[1756px] size-[73px] top-[525px]" data-node-id="4012:1705" data-name="Notch circle 04">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgNotchCircle04} />
+        </div>
+        <div className="absolute h-[53px] left-[1765.5px] top-[535px] w-[54px]" data-node-id="4012:1706" data-name="5429ca58a84099067b9e6d3120228 4">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[255.11%] left-[-182.02%] max-w-none top-[-140%] w-[307.13%]" src={img5429Ca58A84099067B9E6D31202283} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#823981] content-stretch flex items-start left-[calc(33.33%+195px)] overflow-clip px-[12px] py-[6px] rounded-[100px] top-[4385px]" data-node-id="4012:1707" data-name="Badge / Info">
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="4012:1708">
+          Ключевые показатели флагманских проектов
+        </p>
+      </div>
+      <Component className="-translate-x-1/2 absolute h-[423px] left-[calc(50%+0.5px)] top-[8622px] w-[1921px]" />
+    </div>
+  );
+}

@@ -1,0 +1,119 @@
+/* Desktop reference: Figma 4012:1333, 1920 × 9045.
+   The contained, three-card benefits slider and previous requested changes remain. */
+@media (min-width: 1280px) {
+  body { font-optical-sizing: none; }
+  .hero:before { background-size: cover, min(143.6vw, 2757px) min(88.07vw, 1691px); background-position: center, 48.2% clamp(-110px, -5.75vw, 0px); }
+  h2 { line-height: 1.21875; }
+  .header { display: grid; grid-template-columns: 205px 85px 591px 127px 192px; gap: 0; }
+  .header > .brand { grid-column: 1; }
+  .header > nav { grid-column: 3; width: 591px; height: 52px; justify-content: space-between; }
+  .header nav a.active { font-weight: 500; }
+  .header-actions { grid-column: 5; width: 192px; margin-left: 0; gap: 8px; }
+  .header-actions .primary { width: 108px; height: 44px; justify-content: center; padding-inline: 0; }
+  .header-actions .language { width: 76px; height: 44px; justify-content: center; }
+  .hero-main { padding-top: 121px; }
+  .hero h1 { max-width: 1017px; line-height: 1.0867236; letter-spacing: 0; }
+  .hero-bottom { bottom: 72.1px; }
+  .hero-bottom > .cta { margin-top: 12px; }
+  .hero-bottom > div { flex: 0 1 855px; min-width: 0; }
+  .hero-bottom h2 { max-width: 855px; line-height: 1.0867236; }
+  .hero-bottom p { margin-top: 21.4px; line-height: 1.0867236; }
+  .hero-callout { top: 52.9220779%; }
+  .hero-callout p { line-height: 1.0867236; }
+  .benefits { padding-top: 226.8px; }
+  .benefits h2 { line-height: 1.0430949; }
+  .benefit-track { margin-top: 76.45px; }
+  .benefit-symbol { transform: scale(.8723); transform-origin: bottom right; }
+  .about { padding-top: 183.2px; padding-bottom: 100px; }
+  .about-copy { grid-template-columns: 640px 449px; gap: 111px; min-height: 215px; margin-top: 35px; }
+  .about-copy > p:last-child { line-height: 1.0867236; }
+  .stats { height: 205px; margin-top: 0; margin-bottom: 52px; }
+  .stats > div { padding: 29px 24px 0; }
+  .stats strong { font-size: 77.268px; line-height: 1.0430949; height: 81px; }
+  .stats p { margin-top: 10px; line-height: 1.0430949; }
+  .engineering { left: 327px; right: auto; top: -772px; height: 907px; }
+  .engineering img { display: block; position: absolute; max-width: none; }
+  .engineering .label-top { left: 627px; top: 149px; }
+  .engineering .label-left { left: 22.7px; top: 432.1px; }
+  .engineering .label-bottom { left: 132px; top: 715.3px; }
+  .engineering .label-right { left: 632.3px; top: 707.6px; }
+  .engineering .engineering-hydrogen { left: 204px; top: 244.9px; }
+  .engineering .engineering-point { left: 493px; top: 550.2px; }
+  .case-top h2 { max-width: 426.34px; min-height: 100.14px; line-height: 1.0430949; }
+  .case-top p { max-width: 642.51px; min-height: 51.04px; margin-top: 21.28px; line-height: 1.0867236; }
+  .case-top .cta { margin-top: 57.67px; }
+  .case-controls { margin-top: 0; }
+  .case-image { mask: url('#case-frame-mask'); }
+  .case-callouts { display: block; position: absolute; inset: 0; pointer-events: none; }
+  .case-lines { position: absolute; left: calc(50% - 75.09px); top: 561.71px; max-width: none; }
+  .case-lines-rusak { display: none; }
+  .case-dot { position: absolute; max-width: none; }
+  .case-dot-one { left: calc(50% - 80.1px); top: 560.08px; }
+  .case-dot-two { left: calc(50% + 160.99px); top: 557.5px; }
+  .case-dot-three { left: calc(50% + 319px); top: 658px; }
+  .case-dot-four { display: none; }
+  .case-section.is-rusak .case-lines-belaz { display: none; }
+  .case-section.is-rusak .case-lines-rusak { display: block; left: calc(50% - 47px); top: 536px; }
+  .case-section.is-rusak .case-dot-one { left: calc(50% - 51.5px); top: 557.6px; }
+  .case-section.is-rusak .case-dot-two { left: calc(50% + 155px); top: 713.75px; }
+  .case-section.is-rusak .case-dot-three { left: calc(50% + 279.5px); top: 531px; }
+  .case-section.is-rusak .case-dot-four { display: block; left: calc(50% + 467.5px); top: 659px; }
+  .case-section.is-rusak .case-image {
+    background-image: linear-gradient(160deg, #ffffffe6 8%, #ffffff7a 34%, transparent 50%), linear-gradient(0deg, #61385ae6, transparent 28%), url('assets/eb2b4.png');
+  }
+  .case-bottom { padding-bottom: 0; min-height: 139px; }
+  .case-bottom > div:first-child { width: 320px; flex-shrink: 0; }
+  .case-bottom h3 { line-height: 1.0430949; margin-bottom: 17px; }
+  .case-stats { width: 724px; grid-template-columns: 198px 217px minmax(0, 1fr); gap: 0; }
+  .case-stats strong { line-height: 1.0430949; }
+  .case-stats p { line-height: 1.0430949; }
+  .case-stats > div:last-child p { max-width: 132px; }
+  .case-section.is-rusak .case-stats { width: 754px; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
+  .case-link { justify-content: space-between; padding-left: 474px; min-height: 51px; margin-bottom: 6px; }
+  .case-link > .badge { align-self: flex-start; transform: translateY(-10px); }
+  .projects { padding-top: 114px; }
+  .projects h2 { line-height: 1.0430949; }
+  .projects-intro { max-width: 722px; line-height: 1.0867236; margin: 63.62px 0 38.14px; }
+  .project-feature { border-radius: 0; mask: url('assets/96817.svg') 0 0 / 100% 100% no-repeat; }
+  .project-feature > img { position: absolute; left: -11.0926%; top: -45.53%; width: 120.267%; height: 187.413%; max-width: none; object-fit: cover; }
+  .project-grid { gap: 26px; margin-top: 30.68px; }
+  .project-photo { aspect-ratio: 587 / 573; }
+  .project-image-crop > img { position: absolute; left: -48.04%; top: 0; width: 173.42%; height: 100%; max-width: none; object-fit: cover; }
+  .project-grid article:nth-child(2) .project-image-crop > img { left: -45.826%; top: -1.396%; width: 187.56%; height: 108.03%; object-position: center; }
+  .project-grid h3 { margin-top: 24px; }
+  .partners { padding-top: 126.4px; }
+  .partner-grid { gap: 29px; margin-top: 64px; }
+  .partner-grid article { min-height: 190px; }
+  .press { padding-top: 157px; }
+  .press-grid { margin-top: 43px; }
+  .press-grid article { min-height: 330px; }
+  .press-grid article > div { padding: 20px 23px 15px; }
+  .news-meta { line-height: 16px; }
+  .press-grid h3 { min-height: 22px; font-size: 18px; line-height: 22px; }
+  .press-grid .text-link { padding-top: 30px; line-height: 17px; }
+  .careers { padding-top: 120px; }
+  .career-panel { grid-template-columns: 440px minmax(0, 1fr); gap: 72px; min-height: 330px; margin-top: 49px; padding: 42px 46px; }
+  .career-panel h3 { line-height: 1.2; }
+  .career-panel .cta { margin-top: 47px; }
+  .jobs { padding-top: 2px; }
+  .jobs > :is(button,a) { align-items: flex-start; padding-bottom: 18px; margin-bottom: 16px; }
+  .jobs > :is(button,a):last-child { padding-bottom: 0; margin-bottom: 0; }
+  .jobs .round { margin-top: 2px; }
+  .contacts { padding-top: 120px; padding-bottom: 195px; }
+  .contacts-grid { grid-template-columns: 360px minmax(0, 1fr); gap: 100px; }
+  .map { height: 512px; aspect-ratio: auto; }
+  .requisites { margin-top: 49px; padding: 26px 30px; }
+  .requisites-grid { grid-template-columns: 316px 280px minmax(0, 1fr); gap: 36px; margin-top: 31px; }
+  .requisites dt { line-height: 14px; margin-bottom: 4px; }
+  .requisites dd { line-height: 18px; margin-bottom: 22px; }
+  .requisites dd:last-child { margin-bottom: 0; }
+  .legal { line-height: 1.2; }
+  .legal p:last-child { margin-bottom: 0; }
+  footer { padding-top: 79px; padding-bottom: 106.6px; }
+  footer > .wrap { padding-inline: 37px 50px; }
+  .footer-main { grid-template-columns: 372px 127px 138px minmax(0, 1fr); gap: 35px; }
+  .brand-dark { margin-left: 4px; }
+  .footer-logos { padding-left: 5px; }
+  .footer-contacts b { line-height: 17px; margin-bottom: 6px; }
+  .footer-bottom { margin-top: 18px; padding-top: 15px; font-size: 11.79px; line-height: 1.2; }
+}

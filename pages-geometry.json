@@ -1,0 +1,783 @@
+{
+  "regression": [
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 641
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 1000
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 1001
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 1279
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "bad": [],
+      "file": "about.html",
+      "overflow": false,
+      "width": 2560
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 641
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 1000
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 1001
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 1279
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "bad": [],
+      "file": "projects.html",
+      "overflow": false,
+      "width": 2560
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 641
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 1000
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 1001
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 1279
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "bad": [],
+      "file": "press.html",
+      "overflow": false,
+      "width": 2560
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 641
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 1000
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 1001
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 1279
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "bad": [],
+      "file": "careers.html",
+      "overflow": false,
+      "width": 2560
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 641
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 1000
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 1001
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 1279
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "bad": [],
+      "file": "vacancy-engineer.html",
+      "overflow": false,
+      "width": 2560
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 641
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 1000
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 1001
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 1279
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "bad": [],
+      "file": "article-bus.html",
+      "overflow": false,
+      "width": 2560
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 641
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 1000
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 1001
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 1279
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "bad": [],
+      "file": "project-belaz.html",
+      "overflow": false,
+      "width": 2560
+    }
+  ],
+  "geometry": [
+    {
+      "file": "about.html",
+      "geometry": [
+        {
+          "element": "H1",
+          "height": 52.79999923706055,
+          "text": "О компании",
+          "width": 1200,
+          "y": 230
+        },
+        {
+          "element": "stats",
+          "height": 205,
+          "text": "[9]+проектовреализовано[8]лет опыта",
+          "width": 1200,
+          "y": 545.2999877929688
+        },
+        {
+          "element": "H2",
+          "height": 39.03750228881836,
+          "text": "Направления деятельности",
+          "width": 524.4000244140625,
+          "y": 830.2999877929688
+        },
+        {
+          "element": "direction-grid",
+          "height": 199.1000061035156,
+          "text": "Энергоустановкина водородедля транс",
+          "width": 1200,
+          "y": 920.3375244140624
+        },
+        {
+          "element": "H2",
+          "height": 53.67499923706055,
+          "text": "Кто мы",
+          "width": 1200,
+          "y": 1215.4375
+        },
+        {
+          "element": "who-grid",
+          "height": 369,
+          "text": "Н2 Инжиниринг (ООО Инжиниринговый ц",
+          "width": 1200,
+          "y": 1334.112548828125
+        },
+        {
+          "element": "page-cta",
+          "height": 200,
+          "text": "Хотите сотрудничать?Свяжитесь с нам",
+          "width": 1200,
+          "y": 1780.112548828125
+        },
+        {
+          "element": "FOOTER",
+          "height": 422.6499938964844,
+          "text": "ГлавнаяО компанииПроектыПартнёрыПре",
+          "width": 1904.800048828125,
+          "y": 2108.112548828125
+        }
+      ]
+    },
+    {
+      "file": "projects.html",
+      "geometry": [
+        {
+          "element": "H1",
+          "height": 52.79999923706055,
+          "text": "Наши проекты",
+          "width": 1200,
+          "y": 230
+        },
+        {
+          "element": "portfolio-feature",
+          "height": 429.3500061035156,
+          "text": "Н2 – карьерный самосвали заправочна",
+          "width": 1200,
+          "y": 346.8000183105469
+        },
+        {
+          "element": "H2",
+          "height": 138.5500030517578,
+          "text": "Н2 – карьерный самосвали заправочна",
+          "width": 460,
+          "y": 346.8000183105469
+        },
+        {
+          "element": "portfolio-grid",
+          "height": 2026.4625244140625,
+          "text": "Мобильная водородная заправочная ст",
+          "width": 1200,
+          "y": 806.1500244140625
+        },
+        {
+          "element": "FOOTER",
+          "height": 422.6499938964844,
+          "text": "ГлавнаяО компанииПроектыПартнёрыПре",
+          "width": 1904.800048828125,
+          "y": 3092.612548828125
+        }
+      ]
+    },
+    {
+      "file": "press.html",
+      "geometry": [
+        {
+          "element": "heading-badge",
+          "height": 52.79999923706055,
+          "text": "Пресса о насНовости, интервью и ана",
+          "width": 1200,
+          "y": 230
+        },
+        {
+          "element": "H1",
+          "height": 52.79999923706055,
+          "text": "Пресса о нас",
+          "width": 335.0874938964844,
+          "y": 230
+        },
+        {
+          "element": "publication-grid",
+          "height": 700,
+          "text": "15.10.2026Новости энергетикиВодород",
+          "width": 1200,
+          "y": 409.8000183105469
+        },
+        {
+          "element": "FOOTER",
+          "height": 422.6499938964844,
+          "text": "ГлавнаяО компанииПроектыПартнёрыПре",
+          "width": 1904.800048828125,
+          "y": 1339.800048828125
+        }
+      ]
+    },
+    {
+      "file": "careers.html",
+      "geometry": [
+        {
+          "element": "heading-badge",
+          "height": 52.79999923706055,
+          "text": "Карьера в компании6 открытых ваканс",
+          "width": 1200,
+          "y": 230
+        },
+        {
+          "element": "H1",
+          "height": 52.79999923706055,
+          "text": "Карьера в компании",
+          "width": 523.1124877929688,
+          "y": 230
+        },
+        {
+          "element": "H2",
+          "height": 39.03750228881836,
+          "text": "Открытые вакансии",
+          "width": 1200,
+          "y": 479.8000183105469
+        },
+        {
+          "element": "vacancy-list",
+          "height": 577.6000366210938,
+          "text": "Инженер-конструкторМосква · полная ",
+          "width": 1200,
+          "y": 569.8375244140625
+        },
+        {
+          "element": "page-cta",
+          "height": 200,
+          "text": "Не нашли подходящую вакансию?Отправ",
+          "width": 1200,
+          "y": 1251.4375
+        },
+        {
+          "element": "FOOTER",
+          "height": 422.6499938964844,
+          "text": "ГлавнаяО компанииПроектыПартнёрыПре",
+          "width": 1904.800048828125,
+          "y": 1579.4375
+        }
+      ]
+    },
+    {
+      "file": "vacancy-engineer.html",
+      "geometry": [
+        {
+          "element": "vacancy-intro",
+          "height": 276.8000183105469,
+          "text": "Инженер-конструкторМоскваполная зан",
+          "width": 1200,
+          "y": 213
+        },
+        {
+          "element": "H1",
+          "height": 52.79999923706055,
+          "text": "Инженер-конструктор",
+          "width": 640,
+          "y": 246.8000030517578
+        },
+        {
+          "element": "H2",
+          "height": 39.03750228881836,
+          "text": "Обязанности",
+          "width": 878,
+          "y": 553.7999877929688
+        },
+        {
+          "element": "H2",
+          "height": 39.03750228881836,
+          "text": "Что мы ожидаем",
+          "width": 878,
+          "y": 1282.8375244140625
+        },
+        {
+          "element": "H2",
+          "height": 39.03750228881836,
+          "text": "Что мы предлагаем:",
+          "width": 878,
+          "y": 1984.875
+        },
+        {
+          "element": "FOOTER",
+          "height": 422.6499938964844,
+          "text": "ГлавнаяО компанииПроектыПартнёрыПре",
+          "width": 1904.800048828125,
+          "y": 2482.91259765625
+        }
+      ]
+    },
+    {
+      "file": "article-bus.html",
+      "geometry": [
+        {
+          "element": "H1",
+          "height": 39.03750228881836,
+          "text": "Водородная заправка для автобусов",
+          "width": 1200,
+          "y": 1097
+        },
+        {
+          "element": "H2",
+          "height": 52.79999923706055,
+          "text": "Пресса о нас",
+          "width": 335.0874938964844,
+          "y": 1815.237548828125
+        },
+        {
+          "element": "publication-grid",
+          "height": 700,
+          "text": "15.10.2026Новости энергетикиВодород",
+          "width": 1200,
+          "y": 1995.0374755859375
+        },
+        {
+          "element": "FOOTER",
+          "height": 422.6499938964844,
+          "text": "ГлавнаяО компанииПроектыПартнёрыПре",
+          "width": 1904.800048828125,
+          "y": 2925.03759765625
+        }
+      ]
+    },
+    {
+      "file": "project-belaz.html",
+      "geometry": [
+        {
+          "element": "H1",
+          "height": 158.6999969482422,
+          "text": "Водородный карьерныйсамосвал БЕЛАЗ",
+          "width": 640,
+          "y": 220
+        },
+        {
+          "element": "project-specs",
+          "height": 160,
+          "text": "[64] км/чмаксимальная скорость[55] ",
+          "width": 1200,
+          "y": 690
+        },
+        {
+          "element": "project-details",
+          "height": 680,
+          "text": "О проектеМобильная водородная запра",
+          "width": 1200,
+          "y": 940
+        },
+        {
+          "element": "H2",
+          "height": 140.1999969482422,
+          "text": "О проекте",
+          "width": 360,
+          "y": 969.7999877929688
+        },
+        {
+          "element": "H2",
+          "height": 140.1999969482422,
+          "text": "Задача",
+          "width": 360,
+          "y": 1139.800048828125
+        },
+        {
+          "element": "H2",
+          "height": 140.1999969482422,
+          "text": "Решение",
+          "width": 360,
+          "y": 1309.800048828125
+        },
+        {
+          "element": "H2",
+          "height": 140.1999969482422,
+          "text": "Результат",
+          "width": 360,
+          "y": 1479.800048828125
+        },
+        {
+          "element": "project-gallery",
+          "height": 350.0375061035156,
+          "text": "Галерея проекта",
+          "width": 1200,
+          "y": 1634
+        },
+        {
+          "element": "H2",
+          "height": 39.03750228881836,
+          "text": "Галерея проекта",
+          "width": 1200,
+          "y": 1634
+        },
+        {
+          "element": "page-cta",
+          "height": 200,
+          "text": "Обсудим ваш проект?Свяжитесь с нами",
+          "width": 1200,
+          "y": 2094.03759765625
+        },
+        {
+          "element": "related-projects",
+          "height": 390.0375061035156,
+          "text": "Другие проектыМобильная водородная ",
+          "width": 1200,
+          "y": 2403.03759765625
+        },
+        {
+          "element": "H2",
+          "height": 39.03750228881836,
+          "text": "Другие проекты",
+          "width": 1200,
+          "y": 2403.03759765625
+        },
+        {
+          "element": "FOOTER",
+          "height": 422.6499938964844,
+          "text": "ГлавнаяО компанииПроектыПартнёрыПре",
+          "width": 1904.800048828125,
+          "y": 2893.074951171875
+        }
+      ]
+    }
+  ]
+}

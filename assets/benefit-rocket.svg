@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="60" viewBox="0 0 44 60" fill="none">
+  <defs><linearGradient id="metal" x1="9" y1="10" x2="35" y2="48" gradientUnits="userSpaceOnUse"><stop stop-color="#b77abd"/><stop offset=".42" stop-color="#713375"/><stop offset=".7" stop-color="#945799"/><stop offset="1" stop-color="#55245f"/></linearGradient><linearGradient id="glass" x1="17" y1="19" x2="28" y2="30" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#d8c4e3"/></linearGradient></defs>
+  <path d="M13 33 6 40 5 51 14 46M31 33l7 7 1 11-9-5" fill="url(#metal)" stroke="#915294" stroke-linejoin="round"/>
+  <path d="M22 3C13 12 11 23 13 35l3 12h12l3-12C33 23 31 12 22 3Z" fill="url(#metal)" stroke="#a46aa9" stroke-width="1.2"/>
+  <path d="M16 12h12M15 41h14M17 47h10" stroke="#d9b9de" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="22" cy="25" r="7" fill="url(#glass)" stroke="#bc87c6" stroke-width="2"/>
+  <path d="M18 50h8l-1 4-3 4-3-4-1-4Z" fill="url(#metal)"/>
+</svg>

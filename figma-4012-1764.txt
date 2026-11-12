@@ -1,0 +1,309 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/bbb0c58e-f0f3-4782-89a6-0beb3c19826c";
+const imgNavGlassMetal = `${assetPathPrefix}/bc77f.png`;
+const imgNavItem = `${assetPathPrefix}/b162e.png`;
+const imgGroup = `${assetPathPrefix}/10e3c.svg`;
+const imgGroup1 = `${assetPathPrefix}/b6324.svg`;
+const imgGroup2 = `${assetPathPrefix}/16dee.svg`;
+const imgFrame = `${assetPathPrefix}/e67a1.svg`;
+const imgArrowRight = `${assetPathPrefix}/8245d.svg`;
+const imgVector = `${assetPathPrefix}/d01ee.svg`;
+const img15 = `${assetPathPrefix}/c2e0d.svg`;
+const img16 = `${assetPathPrefix}/0720d.svg`;
+const imgGroup35675 = `${assetPathPrefix}/a6d82.svg`;
+const imgGroup35676 = `${assetPathPrefix}/d68ce.svg`;
+const imgIconZap = `${assetPathPrefix}/b6be8.svg`;
+const imgIconTruck = `${assetPathPrefix}/4092a.svg`;
+const imgGroup3 = `${assetPathPrefix}/a9eb5.svg`;
+const imgLayer1 = `${assetPathPrefix}/2cd66.svg`;
+
+function Menu({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[130px] relative w-[1920px]"} data-node-id="4012:3999" data-name="menu">
+      <div className="absolute bg-gradient-to-b from-[#343c4c] h-[130px] left-0 to-[#1a1e28] top-0 w-[1920px]" data-node-id="4012:4000" data-name="Header bg" />
+      <button className="absolute contents cursor-pointer inset-[28.46%_70.52%_39.23%_18.8%]" data-node-id="4012:4001">
+        <div className="absolute inset-[28.46%_70.52%_39.23%_18.8%] overflow-clip" data-node-id="4012:4002" data-name="logo">
+          <div className="absolute contents inset-[0_0_-0.01%_0]" data-node-id="4012:4003" data-name="Layer 1">
+            <div className="absolute contents inset-[0_0_-0.01%_0]" data-node-id="4012:4004" data-name="Group">
+              <div className="absolute inset-[0_79.35%_-0.01%_0]" data-node-id="4012:4005" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+              <div className="absolute contents inset-[15.36%_0_15.36%_26.71%]" data-node-id="4012:4008" data-name="Group">
+                <div className="absolute inset-[15.36%_0_51.29%_26.71%]" data-node-id="4012:4009" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                </div>
+                <div className="absolute inset-[63.87%_0.91%_15.36%_26.75%]" data-node-id="4012:4020" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <div className="absolute border border-[rgba(255,255,255,0.75)] border-solid content-stretch flex gap-[2px] items-center left-[650px] overflow-clip p-[5px] rounded-[100px] shadow-[0px_10px_28px_0px_rgba(8,10,30,0.28)] top-[32px]" data-node-id="4012:4041" data-name="Nav / Glass metal">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute bg-[rgba(255,255,255,0.13)] inset-0 rounded-[100px]" />
+          <img alt="" className="absolute backdrop-blur-[12px] max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgNavGlassMetal} />
+        </div>
+        <a className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:4042" data-name="Nav item / Главная">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-left text-white whitespace-nowrap" data-node-id="4012:4043">
+            Главная
+          </p>
+        </a>
+        <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0 w-[112px]" data-node-id="4012:4044" data-name="Nav item / О компании">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+            <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+            <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgNavItem} />
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] whitespace-nowrap" data-node-id="4012:4045">
+            О компании
+          </p>
+        </div>
+        <a className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:4046" data-name="Nav item / Проекты">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:4047">
+            Проекты
+          </p>
+        </a>
+        <a className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:4048" data-name="Nav item / Партнёры">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:4049">
+            Партнёры
+          </p>
+        </a>
+        <a className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:4050" data-name="Nav item / Пресса">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:4051">
+            Пресса
+          </p>
+        </a>
+        <a className="content-stretch cursor-pointer flex items-center overflow-clip px-[18px] py-[11px] relative rounded-[100px] shrink-0" data-node-id="4012:4052" data-name="Nav item / Карьера">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.9)] text-left whitespace-nowrap" data-node-id="4012:4053">
+            Карьера
+          </p>
+        </a>
+        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_1px_0px_0px_rgba(255,255,255,0.35)]" />
+      </div>
+      <a className="absolute border border-[rgba(255,255,255,0.7)] border-solid content-stretch cursor-pointer flex items-center left-[1369px] overflow-clip px-[22px] py-[13px] rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] top-[36px]" data-node-id="4012:4054" data-name="Nav / Контакты">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgNavItem} />
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[13px] text-left text-white whitespace-nowrap" data-node-id="4012:4055">
+          Контакты
+        </p>
+      </a>
+      <div className="absolute border border-solid border-white content-stretch flex gap-[8px] items-center left-[1485px] overflow-clip px-[18px] py-[13px] rounded-[100px] shadow-[0px_5px_14px_0px_rgba(20,25,60,0.16)] top-[36px]" data-node-id="4012:4056" data-name="Nav / Язык RU">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[100px] size-full" src={imgNavGlassMetal} />
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#222230] text-[13px] whitespace-nowrap" data-node-id="4012:4057">
+          RU
+        </p>
+        <div className="relative shrink-0 size-[12px]" data-node-id="4012:4058" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+type ButtonPrimaryProps = {
+  className?: string;
+  state?: "Default";
+};
+
+function ButtonPrimary({ className, state = "Default" }: ButtonPrimaryProps) {
+  return (
+    <div className={className || "content-stretch flex gap-[3px] items-center relative"} data-node-id="4012:3835">
+      <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center overflow-clip px-[27px] py-[15px] relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0" data-node-id="4012:3836" data-name="Pill">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgNavItem} />
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="4012:3837">
+          Связаться с нами
+        </p>
+      </div>
+      <div className="border border-[rgba(255,255,255,0.7)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shadow-[0px_6px_14px_0px_rgba(50,25,90,0.3)] shrink-0 size-[49px]" data-node-id="4012:3838" data-name="Arrow">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[100px]">
+          <div className="absolute inset-0 rounded-[100px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 0, 0, 0.14) 100%), linear-gradient(90deg, rgb(130, 57, 129) 0%, rgb(96, 66, 160) 55%, rgb(55, 98, 176) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover rounded-[100px] size-full" src={imgNavItem} />
+        </div>
+        <div className="relative shrink-0 size-[18px]" data-node-id="4012:3839" data-name="arrow-right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-[#f7f7f7] relative size-full" data-node-id="4012:1764" data-name="Страница — О компании">
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[360px] not-italic text-[#787c8c] text-[14px] top-[160px] whitespace-pre" data-node-id="4012:1765">{`Главная  /  О компании`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[360px] not-italic text-[#111] text-[44px] top-[230px] whitespace-nowrap" data-node-id="4012:1766">
+        <span className="leading-[normal]">{`О `}</span>
+        <span className="leading-[normal] text-[#823981]">КОМПАНИИ</span>
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[100px] leading-[1.35] left-[360px] not-italic text-[22px] text-black top-[330px] w-[640px]" data-node-id="4012:1767">
+        Инжиниринговый центр «Автономная энергетика» - одна из ведущих российских компаний в сфере прикладных решений для водородной энергетики. Компания образована в 2019 г. как спин-офф ведущего технического вуза страны – МФТИ.
+      </p>
+      <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[369px] leading-[0] left-[360px] not-italic text-[22px] text-black top-[1334px] w-[737px] whitespace-pre-wrap" data-node-id="4012:1768">
+        <p className="leading-[1.35] mb-0">
+          {`Н2 Инжиниринг (ООО Инжиниринговый центр «Автономная энергетика») — российская компания, специализирующаяся `}
+          <br aria-hidden />
+          {`на разработке и внедрении практических решений в сфере водородной энергетики.  `}
+        </p>
+        <p className="leading-[1.35] mb-0">​</p>
+        <p>
+          <span className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.35] not-italic">{`Образована в 2019 г. как спин-офф ведущего технического вуза страны – МФТИ. `}</span>
+          <span className="leading-[1.35] text-[#823981]">
+            <br aria-hidden />
+          </span>
+          <span className="leading-[1.35]">Основное направление деятельности — создание автономных генерирующих систем на базе возобновляемых источников энергии с интеграцией водородных технологий.</span>
+        </p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[91px] leading-[1.087] left-[calc(58.33%-9px)] not-italic text-[16px] text-black top-[336px] w-[449px]" data-node-id="4012:1769">{`Уникальные инженерные решения для оптимизации энергетических затрат на жизненном цикле для тяжёлого коммерческого транспорта, больших парков коммерческих флотов (автобусы, тягачи, коммерческая техника, суда, погрузчики) `}</p>
+      <div className="absolute bg-[#d2d4e0] h-px left-[360px] top-[545px] w-[1200px]" data-node-id="4012:1770" data-name="Divider / top" />
+      <div className="absolute bg-[#d2d4e0] h-[205px] left-[calc(33.33%+120px)] top-[545px] w-px" data-node-id="4012:1771" data-name="Divider / v1" />
+      <div className="absolute bg-[#d2d4e0] h-[205px] left-[calc(66.67%-120px)] top-[545px] w-px" data-node-id="4012:1772" data-name="Divider / v2" />
+      <div className="-translate-x-1/2 absolute contents left-[calc(12.5%+224.85px)] top-[575px]" data-node-id="4012:1773">
+        <div className="-translate-x-1/2 absolute left-[calc(12.5%+286.63px)] size-[38.113px] top-[595.79px]" data-node-id="4012:1774" data-name="Vector">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[99px] leading-[1.043] left-[calc(4.17%+330.56px)] not-italic text-[#823981] text-[77.268px] top-[575px] w-[62.746px]" data-node-id="4012:1775">
+          9
+        </p>
+        <div className="-translate-x-1/2 absolute h-[70.679px] left-[calc(4.17%+314.06px)] top-[581.12px] w-[20.111px]" data-node-id="4012:1776" data-name="[15]+">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img15} />
+        </div>
+        <div className="-translate-x-1/2 absolute flex h-[70.679px] items-center justify-center left-[calc(12.5%+239.73px)] top-[581.12px] w-[20.111px]" data-node-id="4012:1778">
+          <div className="-scale-y-100 flex-none rotate-180">
+            <div className="h-[70.679px] relative w-[20.111px]" data-name="[15]+">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img16} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[70.679px] left-[calc(37.5%+116.89px)] top-[581px] w-[105.784px]" data-node-id="4012:1780">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup35675} />
+      </div>
+      <div className="-translate-x-1/2 absolute h-[70.679px] left-[calc(79.17%-235.1px)] top-[581px] w-[201.802px]" data-node-id="4012:1786">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup35676} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.043] left-[calc(12.5%+144px)] not-italic text-[#4a4a4a] text-[18px] top-[666px] w-[175px]" data-node-id="4012:1794">
+        проектов реализовано
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.043] left-[calc(37.5%+64px)] not-italic text-[#4a4a4a] text-[18px] top-[666px] w-[105px]" data-node-id="4012:1795">
+        лет опыта на рынке
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.043] left-[calc(70.83%-176px)] not-italic text-[#4a4a4a] text-[18px] top-[666px] w-[139px]" data-node-id="4012:1796">
+        специалистов в штате
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[360px] not-italic text-[#111] text-[32px] top-[830px] whitespace-nowrap" data-node-id="4012:1797">
+        <span className="leading-[normal]">{`НАПРАВЛЕНИЯ `}</span>
+        <span className="leading-[normal] text-[#823981]">ДЕЯТЕЛЬНОСТИ</span>
+      </p>
+      <div className="absolute bg-[#823981] content-stretch flex items-start left-[calc(41.67%+106px)] overflow-clip px-[12px] py-[6px] rounded-[100px] top-[838px]" data-node-id="4012:1798" data-name="Badge / Info">
+        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="4012:1799">
+          3 ключевых направления
+        </p>
+      </div>
+      <div className="absolute bg-white border border-[#e2e5ee] border-solid h-[198px] left-[360px] overflow-clip rounded-[24px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] top-[920px] w-[294px]" data-node-id="4012:1800" data-name="Direction card 01">
+        <div className="absolute bg-gradient-to-r from-[#823981] left-[27px] rounded-[24px] size-[48px] to-[#0072bc] top-[27px]" data-node-id="4012:1801" data-name="Icon background" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[27px] not-italic text-[#111] text-[20px] top-[99px] whitespace-pre" data-node-id="4012:1802">
+          {`Энергоустановки `}
+          <br aria-hidden />
+          на водороде
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[40px] leading-[1.5] left-[27px] not-italic text-[#464a5a] text-[15px] top-[157px] tracking-[-0.45px] w-[266px]" data-node-id="4012:1803">
+          для транспорта и промышленности
+        </p>
+        <div className="absolute left-[37px] size-[28px] top-[37px]" data-node-id="4012:1804" data-name="Icon / zap">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconZap} />
+        </div>
+      </div>
+      <div className="absolute bg-white border border-[#e2e5ee] border-solid h-[198px] left-[calc(25%+183px)] overflow-clip rounded-[24px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] top-[920px] w-[293px]" data-node-id="4012:1806" data-name="Direction card 02">
+        <div className="absolute bg-gradient-to-r from-[#823981] left-[27px] rounded-[24px] size-[48px] to-[#0072bc] top-[27px]" data-node-id="4012:1807" data-name="Icon background" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[27px] not-italic text-[#111] text-[20px] top-[99px] whitespace-pre" data-node-id="4012:1808">
+          {`Водородные `}
+          <br aria-hidden />
+          заправочные станции
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.5] left-[27px] not-italic text-[#464a5a] text-[15px] top-[156px] whitespace-nowrap" data-node-id="4012:1809">
+          (стационарные и мобильные)
+        </p>
+        <div className="absolute left-[37px] size-[28px] top-[37px]" data-node-id="4012:1810" data-name="Icon / truck">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconTruck} />
+        </div>
+      </div>
+      <div className="absolute bg-white border border-[#e2e5ee] border-solid h-[198px] left-[calc(50%+5px)] overflow-clip rounded-[24px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] top-[920px] w-[293px]" data-node-id="4012:1815" data-name="Direction card 03">
+        <div className="absolute bg-gradient-to-r from-[#823981] left-[27px] rounded-[24px] size-[48px] to-[#0072bc] top-[27px]" data-node-id="4012:1816" data-name="Icon background" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[27px] not-italic text-[#111] text-[20px] top-[99px] whitespace-nowrap" data-node-id="4012:1817">
+          Генераторы водорода
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.5] left-[27px] not-italic text-[#464a5a] text-[15px] top-[141px] whitespace-nowrap" data-node-id="4012:1818">
+          малой производительности
+        </p>
+        <div className="absolute contents inset-[calc(18.18%-0.64px)_calc(78.5%+0.57px)_calc(66.31%+0.33px)_calc(14.33%-0.71px)]" data-node-id="4012:1819" data-name="Objects">
+          <div className="absolute inset-[18.18%_78.5%_66.31%_14.33%]" data-node-id="4012:1820" data-name="Group">
+            <div className="absolute inset-[0_-2.38%_-1.63%_-2.38%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup3} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-white border border-[#e2e5ee] border-solid h-[198px] left-[calc(75%-173px)] overflow-clip rounded-[24px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] top-[920px] w-[294px]" data-node-id="4012:1826" data-name="Direction card 4">
+        <div className="absolute bg-gradient-to-r from-[#823981] left-[27px] rounded-[24px] size-[48px] to-[#0072bc] top-[27px]" data-node-id="4012:1827" data-name="Icon background" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[27px] not-italic text-[#111] text-[20px] top-[99px] w-[328px]" data-node-id="4012:1828">
+          Инжиниринг
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.5] left-[27px] not-italic text-[#464a5a] text-[15px] top-[141px] w-[328px]" data-node-id="4012:1829">
+          и сервис «под ключ»
+        </p>
+        <div className="absolute inset-[calc(20.2%-0.6px)_calc(78.57%+0.57px)_calc(67.68%+0.35px)_calc(13.27%-0.73px)] overflow-clip" data-node-id="4012:1830" data-name="1Asset 10 4">
+          <div className="absolute contents inset-0" data-node-id="4012:1831" data-name="Layer 1">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLayer1} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute border border-[rgba(255,255,255,0.18)] border-solid h-[200px] left-[360px] overflow-clip rounded-[32px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] top-[1780px] w-[1200px]" data-node-id="4012:1836" data-name="CTA panel">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[32px]">
+          <div className="absolute inset-0 rounded-[32px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(226, 229, 239) 100%)" }} />
+          <img alt="" className="absolute max-w-none object-cover opacity-20 rounded-[32px] size-full" src={imgNavGlassMetal} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[47px] not-italic text-[#823981] text-[30px] top-[43px] w-[640px]" data-node-id="4012:1837">
+          Хотите сотрудничать?
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.5] left-[47px] not-italic text-[16px] text-[rgba(0,0,0,0.75)] top-[99px] w-[560px]" data-node-id="4012:1838">
+          Свяжитесь с нами — обсудим задачу и предложим решение.
+        </p>
+        <ButtonPrimary className="absolute content-stretch cursor-pointer flex gap-[3px] items-center left-[904px] top-[73.5px]" />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[0] left-[360px] not-italic text-[#111] text-[44px] top-[1215px] whitespace-nowrap" data-node-id="4012:1840">
+        <span className="leading-[normal]">{`КТО `}</span>
+        <span className="leading-[normal] text-[#823981]">МЫ</span>
+      </p>
+      <div className="absolute bg-white border border-[#e2e5ee] border-solid h-[203px] left-[calc(66.67%-92px)] overflow-clip rounded-[24px] shadow-[0px_6px_18px_0px_rgba(26,31,77,0.06)] top-[1334px] w-[372px]" data-node-id="4012:1841" data-name="Specs">
+        <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[134px] leading-[0] left-[35px] not-italic text-[0px] text-black top-[28px] w-[310px] whitespace-pre-wrap" data-node-id="4012:1842">
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.35] mb-0 text-[20px]">{`Компания предоставляет полный комплекс услуг: `}</p>
+          <p className="leading-[1.35] mb-0 text-[20px]">​</p>
+          <p className="leading-[1.35] text-[16px]">
+            {`от первоначальной концепции `}
+            <br aria-hidden />
+            до пусконаладочных работ
+            <br aria-hidden />и ввода объектов в эксплуатацию.
+          </p>
+        </div>
+      </div>
+      <Menu className="absolute h-[130px] left-0 top-0 w-[1920px]" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
