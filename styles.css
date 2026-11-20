@@ -22,6 +22,40 @@
 @media(max-width:380px){.benefits h2{font-size:21px}.benefits .arrows{flex-direction:column;gap:6px}.header .brand{width:150px}.header .brand>img{width:31px}.header{gap:8px}.header-actions .language{padding-inline:10px}.hero-bottom h2{font-size:20px}.case-stats strong{font-size:26px}.case-link .badge{max-width:100px}}
 @media(prefers-reduced-motion:reduce){html,.benefit-track{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
+/* Trace the hero callout in order: vertical line, horizontal line, point, copy. */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-callout .callout-dot::after {
+    transform-origin: center top;
+    animation: hero-line-down 650ms cubic-bezier(.4, 0, .2, 1) 350ms both;
+  }
+  .hero-callout .callout-dot::before {
+    transform-origin: left center;
+    animation: hero-line-across 650ms cubic-bezier(.4, 0, .2, 1) 1s both;
+  }
+  .hero-callout .callout-dot {
+    animation: hero-callout-point 300ms ease-out 1.6s both;
+  }
+  .hero-callout p {
+    animation: hero-callout-copy 550ms cubic-bezier(.2, .65, .3, 1) 1.75s both;
+  }
+}
+@keyframes hero-line-down {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+@keyframes hero-line-across {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes hero-callout-point {
+  from { background-color: transparent; box-shadow: 0 0 0 0 #ffffff00, 0 0 0 #ffffff00; }
+  to { background-color: #fff; box-shadow: 0 0 0 8px #ffffff12, 0 0 18px #fff; }
+}
+@keyframes hero-callout-copy {
+  from { opacity: 0; transform: translateX(12px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
 /* Shared baselines and compact responsive labels. */
 .engineering > img:not(:first-child) { display: none; }
 .stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
